@@ -8,4 +8,6 @@ Feel free to contribute. Feel free to use -- but please reference source.
 
 Updates:
 
+  2020-09-23: Added the companion patterns, to add coverage in podcast feed discovery
+
   2020-08-27: Lowering the bar, patterns with at least 25 similar links are being added. Optimized some patterns that were too specific to be a little "wider".
