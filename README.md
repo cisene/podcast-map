@@ -6,7 +6,12 @@ This is an attempt of matching 90% of all URL formats out there -- to deduce if 
 
 Feel free to contribute. Feel free to use -- but please reference source.
 
+
+
+
 Updates:
+
+  2021-01-03: Added more patterns, removed ruleset attribute name, renamed ruleset attribute sort to domain
 
   2020-09-23: Added the companion patterns, to add coverage in podcast feed discovery
 
