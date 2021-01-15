@@ -11,6 +11,8 @@ Feel free to contribute. Feel free to use -- but please reference source.
 
 Updates:
 
+  2021-01-15: Added more patterns.
+
   2021-01-05: Added more patterns, sorted entries to make XPath a bit faster
 
   2021-01-03: Added more patterns, removed ruleset attribute name, renamed ruleset attribute sort to domain
