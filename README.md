@@ -11,6 +11,8 @@ Feel free to contribute. Feel free to use -- but please reference source.
 
 Updates:
 
+  2021-02-27: Added more patterns - many new as index expands in all directions.
+
   2021-01-15: Added more patterns.
 
   2021-01-05: Added more patterns, sorted entries to make XPath a bit faster
