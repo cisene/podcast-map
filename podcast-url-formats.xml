@@ -2,7 +2,7 @@
 <!-- These regex rules have been tested against what I had at hand, some patterns against 5000+ URLs, others against a few hundreds. -->
 <!-- All rules/patterns has been tested against AT LEAST 25 samples to go on this list -->
 <!-- Author: Christopher Isene<christopher.isene@gmail.com>-->
-<!-- Revision: 2021-02-27 12:30:39 -->
+<!-- Revision: 2021-02-28 15:55:17 -->
 
 <rulesets>
   <ruleset domain="app.listenbox">
@@ -3564,5 +3564,92 @@
   <ruleset domain="com.frequencypodcastnetwork">
     <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?frequencypodcastnetwork\x2ecom\x2fshows\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2fpodcast\x2f$</matching>
   </ruleset>
+
+  <ruleset domain="digital.mave">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?mave\x2edigital\x2f(\d{1,})$</matching>
+  </ruleset>
+
+  <ruleset domain="gov.scstatehouse">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?scstatehouse\x2egov\x2ffeeds\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2exml$</matching>
+  </ruleset>
+
+  <ruleset domain="com.frogpants">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?frogpants\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x5ffeed(\x5fold)?\x2exml$</matching>
+  </ruleset>
+
+  <ruleset domain="com.mstdfr">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?mstdfr\x2ecom\x2ffeed\x2f\x3fpodcast\x3d([a-z0-9\x25\x2d\x5f]{1,})$</matching>
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?mstdfr\x2ecom\x2fshows\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$</matching>
+  </ruleset>
+
+  <ruleset domain="com.ndtv">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?ndtv\x2ecom\x2fapis\x2fpodcast\x2findex\x2fclient\x5fkey\x2fndtv\x2dpodcast\x2d([a-f0-9]{32})\x3f(.*)$</matching>
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?ndtv\x2ecom\x2fcommon\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2exml$</matching>
+  </ruleset>
+
+  <ruleset domain="com.neombn">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?neombn\x2ecom\x2fxml\x2f([a-z0-9\x2d\x5f]{1,})\x2exml$</matching>
+  </ruleset>
+
+  <ruleset domain="com.nuclearhotseat">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nuclearhotseat\x2ecom\x2fcategory\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$</matching>
+  </ruleset>
+
+  <ruleset domain="com.sportsbyline">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sportsbyline\x2ecom\x2f([a-z0-9\x2d\x2f\x5f]{1,})?feed\x2f$</matching>
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sportsbyline\x2ecom\x2fitunes\x2f([a-z0-9\x2d\x5f]{1,})\x2exml$</matching>
+  </ruleset>
+
+  <ruleset domain="com.streamakaci">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?streamakaci\x2ecom\x2f(xml|files)\x2f([a-z0-9\x2d\x5f]{1,})\x2exml$</matching>
+  </ruleset>
+
+  <ruleset domain="com.thelancet">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?thelancet\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2exml$</matching>
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?thelancet\x2ecom\x2faction\x2fshowfeed\x3f(.*)$</matching>
+  </ruleset>
+
+  <ruleset domain="com.umfm">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?umfm\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2fpodcast$</matching>
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?umfm\x2ecom\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})$</matching>
+  </ruleset>
+
+  <ruleset domain="com.voazimbabwe">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?voazimbabwe\x2ecom\x2fpodcast\x2f\x3fcount\x3d(\d{1,})\x26zoneid\x3d(\d{1,})$</matching>
+  </ruleset>
+
+  <ruleset domain="com.writingexcuses">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?writingexcuses\x2ecom\x2fcategory\x2f([a-z0-9\x2d\x2f\x5f]{1,})?feed([a-z0-9\x2d\x2f\x5f]{1,})?$</matching>
+  </ruleset>
+
+  <ruleset domain="de.uni-duisburg-essen">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?uni\x2dduisburg\x2dessen\x2ede\x2fservlets\x2fdocumentservlet\x3f(.*)$</matching>
+  </ruleset>
+
+  <ruleset domain="edu.uu">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?uu\x2eedu\x2faudio\x2fpodcasts\x2f([a-z0-9\x2d\x5f]{1,})\x2exml$</matching>
+  </ruleset>
+
+  <ruleset domain="eus.halabedi">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?halabedi\x2eeus\x2fauthor\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$</matching>
+  </ruleset>
+
+  <ruleset domain="fm.rmf">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?rmf\x2efm\x2frss\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})\x2exml</matching>
+  </ruleset>
+
+  <ruleset domain="fr.raje">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?raje\x2efr\x2fflux\x2dpodcasts\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2exml</matching>
+  </ruleset>
+
+  <ruleset domain="fr.u-bourgogne">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?u\x2dbourgogne\x2efr\x2fchannels\x2f([a-z0-9]{20})\x2fitunes\x2daudio\x2exml</matching>
+  </ruleset>
+
+  <ruleset domain="jp.fmnaha">
+    <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?fmnaha\x2ejp\x2fpodcasting\x2f(\d{1,})\x2exml</matching>
+  </ruleset>
+
+
 
 </rulesets>
