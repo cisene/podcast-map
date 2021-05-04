@@ -2,7 +2,7 @@
 <!-- These regex rules have been tested against what I had at hand, some patterns against 5000+ URLs, others against a few hundreds. -->
 <!-- All rules/patterns has been tested against AT LEAST 25 samples to go on this list -->
 <!-- Author: Christopher Isene<christopher.isene@gmail.com>-->
-<!-- Revision: 2021-05-04 10:20:06 -->
+<!-- Revision: 2021-05-04 10:38:50 -->
 
 <rulesets>
   
@@ -693,6 +693,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?cmlsdet\x2ecom\x2ffeed\x2f(\d{1,})\x2f([a-z0-9\x2d\x5f]{1,})$</matching>
     </ruleset>
 
+    <ruleset domain="com.cnet">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?cnet\x2ecom\x2ffeed\x2fpodcast\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
     <ruleset domain="com.comicbookclublive">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?comicbookclublive\x2ecom\x2f\x3ffeed\x3d([a-z0-9\x25\x2d\x5f]{1,})$</matching>
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?comicbookclublive\x2ecom\x2ffeed\x2f([a-z0-9\x2d\x5f]{1,})(\x2f)?$</matching>
@@ -1263,6 +1267,10 @@
 
     <ruleset domain="com.parstoday">
       <matching>^http(s)?\x3a\x2f\x2fparstoday\x2ecom\x2f([a-z]{2})\x2fradio\x2fpodcast\x2d\x2d(.+?)$</matching>
+    </ruleset>
+
+    <ruleset domain="com.peerview">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?peerview\x2ecom\x2fpodcast\x2fxml\x2f([a-z0-9\x2d\x5f]{1,})\x2exml</matching>
     </ruleset>
 
     <ruleset domain="com.pinecast">
@@ -3454,6 +3462,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?ccitoronto\x2eorg\x2fsites\x2fdefault\x2fuploads\x2ffiles\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2exml$</matching>
     </ruleset>
 
+    <ruleset domain="org.chabad">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?chabad\x2eorg\x2ftools\x2frss\x2f([a-z0-9\x2d\x2e\x2f\x5f]{1,})</matching>
+    </ruleset>
+
     <ruleset domain="org.ckiafm">
       <matching>^http(s)?\x3a\x2f\x2fpodcasts\x2eckiafm\x2eorg\x2femission\x2f(\d{1,})(\x2f)?$</matching>
     </ruleset>
@@ -3741,6 +3753,11 @@
     <ruleset domain="org.wnyc">
       <matching>^http(s)?\x3a\x2f\x2ffeeds\x2ewnyc\x2eorg\x2f([a-z0-9\x2d\x2f\x5f]{1,})$</matching>
       <matching>^http(s)?\x3a\x2f\x2fwww\x2ewnyc\x2eorg\x2f([a-z0-9\x2d\x2f\x5f]{1,})$</matching>
+    </ruleset>
+
+    <ruleset domain="org.wortfm">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?wortfm\x2eorg\x2ffeed\x2f([a-z0-9\x2d\x5f]{1,})</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?wortfm\x2eorg\x2f([a-z0-9\x2d\x5f]{1,})\x2ephp</matching>
     </ruleset>
 
     <ruleset domain="org.yutorah">
@@ -4198,16 +4215,6 @@
     </ruleset>
 
   </ruletld>
-
-
-
-
-
-
-
-
-
-
 
 
 
