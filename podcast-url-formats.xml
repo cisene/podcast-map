@@ -2,7 +2,7 @@
 <!-- These regex rules have been tested against what I had at hand, some patterns against 5000+ URLs, others against a few hundreds. -->
 <!-- All rules/patterns has been tested against AT LEAST 25 samples to go on this list -->
 <!-- Author: Christopher Isene<christopher.isene@gmail.com>-->
-<!-- Revision: 2021-05-05 15:57:46 -->
+<!-- Revision: 2021-05-23 16:33:01 -->
 
 <rulesets>
   
@@ -2699,6 +2699,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?univ\x2drouen\x2efr\x2fchannels\x2f([a-z0-9]{1,})\x2fitunes\x2daudio\x2exml$</matching>
     </ruleset>
 
+    <ruleset domain="fr.upmc">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?upmc\x2efr\x2frss\x2f([a-z0-9\x2d\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
     <ruleset domain="fr.vl-media">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?vl\x2dmedia\x2efr\x2fcategories\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2ffeed\x2f$</matching>
     </ruleset>
@@ -3430,6 +3434,10 @@
       <matching>^http(s)?\x3a\x2f\x2fwww\x2eaccessradio\x2eorg\x2frss\x2eashx\x3fpid\x3d([a-f0-9\x2d]{36})$</matching>
     </ruleset>
 
+    <ruleset domain="org.achievement">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?achievement\x2eorg\x2frss\x2f([a-z0-9\x2d\x5f]{1,})\x2e(txt|xml)</matching>
+    </ruleset>
+
     <ruleset domain="org.adventistfaith">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2e]{1,})?adventistfaith\x2eorg\x2fpodcasts\x2f(\d{1,})</matching>
     </ruleset>
@@ -3515,6 +3523,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?cosmoquest\x2eorg\x2fx\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2ffeed\x2f$</matching>
     </ruleset>
 
+    <ruleset domain="org.csis">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?csis\x2eorg\x2f(podcasts|programs|regions|topics)\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2fitunes\x2d(audio|video)</matching>
+    </ruleset>
+
     <ruleset domain="org.cuacfm">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?cuacfm\x2eorg\x2fradioco\x2fprogrammes\x2f([a-z0-9\x2d\x5f]{1,})\x2frss\x2f$</matching>
     </ruleset>
@@ -3537,6 +3549,10 @@
 
     <ruleset domain="org.entertainmenttalk">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2e]{1,})?entertainmenttalk\x2eorg\x2ffeed\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})$</matching>
+    </ruleset>
+
+    <ruleset domain="org.eprints">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?eprints\x2eorg\x2f(\d{1,})\x2fPodcast\x2f(\d{1,})\x2exml</matching>
     </ruleset>
 
     <ruleset domain="org.europalibera">
@@ -3841,6 +3857,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?pbs\x2eorg\x2fnewshour\x2fextra\x2fcategory\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2ffeed\x2f</matching>
     </ruleset>
 
+    <ruleset domain="org.unctv">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?unctv\x2eorg\x2frssfeeds\x2f([a-z0-9\x2d\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
     <ruleset domain="org.urdushahkar">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?urdushahkar\x2eorg\x2f([a-z0-9\x2d\x2f\x5f]{1,})?feed\x2f</matching>
     </ruleset>
@@ -4025,6 +4045,11 @@
   </ruletld>
 
   <ruletld tld="se">
+
+    <ruleset domain="se.du">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?du\x2ese\x2frss\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
     <ruleset domain="se.khz">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?khz\x2ese\x2f([a-z0-9\x2d\x5f]{1,})$</matching>
     </ruleset>
@@ -4114,6 +4139,15 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2e]{1,})?bibletalk\x2etv\x2f([a-z0-9\x2d]{1,})\x2epodcast(\x3fv(\d{1,}))?$</matching>
     </ruleset>
 
+    <ruleset domain="tv.cross">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?cross\x2etv\x2fapi\x2ftvshow\x2flist\x2ephp\x3faction\x3ditunes\x5ffeed\x26entries\x5fper\x5fpage\x3d(\d{1,})\x26channel\x5fid\x3d(\d{1,})(\x26audio\x3d(\d{1,}))?</matching>
+    </ruleset>
+
+    <ruleset domain="tv.fauxpop">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?fauxpop\x2etv\x2f([a-z0-9\x2d\x5f]{1,})?\x3ffeed\x3dpodcast</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?fauxpop\x2etv\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2ffeed\x2f</matching>
+    </ruleset>
+
     <ruleset domain="tv.rocketbeans">
       <matching>^http(s)?\x3a\x2f\x2f([a-z\x2e]{1,})?rocketbeans\x2etv\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2exml$</matching>
     </ruleset>
@@ -4186,6 +4220,10 @@
       <matching>^http(s)?\x3a\x2f\x2fnetwork\x2eabsoluteradio\x2eco\x2euk\x2fcore\x2fpodcasts\x2frss\x2ephp\x3f</matching>
     </ruleset>
 
+    <ruleset domain="uk.co.bbc">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?bbc\x2eco\x2euk\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2e(xml|rss)</matching>
+    </ruleset>
+
     <ruleset domain="uk.co.bbci">
       <matching>^http(s)?\x3a\x2f\x2fpodcasts\x2efiles\x2ebbci\x2eco\x2euk\x2f([a-z0-9]{8})\x2erss$</matching>
     </ruleset>
@@ -4256,6 +4294,5 @@
     </ruleset>
 
   </ruletld>
-
 
 </rulesets>
