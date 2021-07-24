@@ -2,7 +2,7 @@
 <!-- These regex rules have been tested against what I had at hand, some patterns against 5000+ URLs, others against a few hundreds. -->
 <!-- All rules/patterns has been tested against AT LEAST 25 samples to go on this list -->
 <!-- Author: Christopher Isene<christopher.isene@gmail.com>-->
-<!-- Revision: 2021-07-14 13:54:46 -->
+<!-- Revision: 2021-07-24 18:38:02 -->
 
 <rulesets>
   
@@ -12,38 +12,88 @@
       <matching>^http(s)?\x3a\x2f\x2fwww\x2eally\x2eac\x2fpodcast\x2ftour\x2f([a-z0-9\x25\x2d\x5f]{1,}).xml</matching>
     </ruleset>
 
+    <ruleset domain="ac.amplifychurch">
+      <matching>^http(s)?\x3f\x3a\x2f\x2famplifychurch\x2eac\x2fpodcast\x2ffeed\x2exml</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="academy">
+
+    <ruleset domain="academy.arzamas">
+      <matching>^http(s)?\x3f\x3a\x2f\x2farzamas\x2eacademy\x2ffeed\x5fv1\x2fpodcast\x2erss</matching>
+    </ruleset>
+    
+    <ruleset domain="academy.urm">
+      <matching>^http(s)?\x3f\x3a\x2f\x2furm\x2eacademy\x2ffeed\x2fpodcast(\x2f)?</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="ae">
+
+    <ruleset domain="ae.raph">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fraph\x2eae\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="aero">
+
+    <ruleset domain="aero.loft">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2eloft\x2eaero\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="africa">
   </ruletld>
 
   <ruletld tld="ag">
+
+    <ruleset domain="ag.mdc">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fmdc\x2eag\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="agency">
+
+    <ruleset domain="agency.sample">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fbackstage\x2esample\x2eagency\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="ai">
+    
+    <ruleset domain="ai.johnwright">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fjohnwright\x2eai\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
 
     <ruleset domain="ai.trinityaudio">
       <matching>^http(s)?\x3a\x2f\x2fdelivery\x2etrinityaudio\x2eai\x2fv(\d{1,})\x2fplaylist\x2f([a-z0-9\x2d\x5f]{1,})\x2frss</matching>
     </ruleset>
 
+    <ruleset domain="ai.trustinsights">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2etrustinsights\x2eai\x2fpodcast</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="al">
+
+    <ruleset domain="al.asamblejabiblike">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fasamblejabiblike\x2eal\x2fpredikime\x2ffeed\x2f</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="am">
+
+    <ruleset domain="am.dx">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fbertjerred\x2edx\x2eam\x2ffeed\x2fpodcast\x2fresearch\x2dand\x2dwriting</matching>
+    </ruleset>
 
     <ruleset domain="am.leo">
       <matching>^http(s)?\x3a\x2f\x2fleo\x2eam\x2fpodcasts\x2f(.+?)$</matching>
@@ -55,6 +105,7 @@
   </ruletld>
 
   <ruletld tld="app">
+
     <ruleset domain="app.listenbox">
       <matching>^http(s)?\x3a\x2f\x2flistenbox\x2eapp\x2ff\x2f([a-z0-9\x2d\x5f]{11})</matching>
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?listenbox\x2eapp\x2fv\x2f([a-z0-9\x2d\x5f]{1,})</matching>
@@ -70,17 +121,31 @@
 
     <ruleset domain="app.tayl">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?tayl\x2eapp\x2fp\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})</matching>
+      <matching>^http(s)?\x3f\x3a\x2f\x2fx\x2etayl\x2eapp\x2fp\x2framiro\x2eemail\x2e5fl</matching>
     </ruleset>
 
   </ruletld>
 
   <ruletld tld="ar">
+
     <ruleset domain="ar.com.airelibre">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?airelibre\x2ecom\x2ear([a-z\x2d\x2f\x5f]{1,})?\x2ffeed\x2f</matching>
     </ruleset>
 
     <ruleset domain="ar.com.arinfo">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?arinfo\x2ecom\x2ear\x2fprogramacion\x2f([a-z0-9\x2d\x5f]{1,})\x2frss</matching>
+    </ruleset>
+
+    <ruleset domain="ar.com.astronomia">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fastronomia\x2ecom\x2ear\x2f\x3ffeed\x3dpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="ar.com.ficciones">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fficciones\x2ecom\x2ear\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="ar.com.mariabarberis">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fmariabarberis\x2ecom\x2ear\x2ffeed\x2fpodcast\x2f</matching>
     </ruleset>
 
     <ruleset domain="ar.com.radionacional">
@@ -93,15 +158,65 @@
   </ruletld>
 
   <ruletld tld="asia">
+
+    <ruleset domain="asia.analyse">
+      <matching>^http(s)?\x3a\x2f\x2fanalyse\x2easia\x2ffeed\x2f15\x2dminutes</matching>
+    </ruleset>
+    
+    <ruleset domain="asia.cics">
+      <matching>^http(s)?\x3a\x2f\x2fcics\x2easia\x2fpodcast\x2f</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="at">
+
     <ruleset domain="at.ac.sbg">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sbg\x2eac\x2eat\x2f([a-z\x2f]{1,})?rss\x2f([a-z0-9\x2d\x2e\x2f\x5f]{1,})\x2exml</matching>
     </ruleset>
 
+    <ruleset domain="at.ac.tuwien">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?tuwien\x2eac\x2eat\x2f\x7e([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x28\x29\x2b\x2d\x2e\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
     <ruleset domain="at.ac.uibk">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?uibk\x2eac\x2eat\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="at.ac.univie">
+      <matching>^http(s)?\x3a\x2f\x2fmedienportal\x2eunivie\x2eac\x2eat\x2fpodcast\x2frss\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="at.artsxcrafts">
+      <matching>^http(s)?\x3a\x2f\x2fartsxcrafts\x2eat\x2fpodcast\x2findex\x2ephp\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="at.bunburyscomics">
+      <matching>^http(s)?\x3a\x2f\x2fbunburyscomics\x2eat\x2fwp\x2dcontent\x2fuploads\x2f2016\x2f06\x2fpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="at.chrisgomez">
+      <matching>^http(s)?\x3a\x2f\x2fchrisgomez\x2eat\x2fpodcast\x2fpodcast\x2f60minutesoffame\x2dpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="at.clubzukunft">
+      <matching>^http(s)?\x3a\x2f\x2fdgdk\x2eclubzukunft\x2eat\x2fpodcast\x2fpodcast\x2exml</matching>
+    </ruleset>
+    
+    <ruleset domain="at.create">
+      <matching>^http(s)?\x3a\x2f\x2fpodcast\x2ecreate\x2eat\x2frss\x2ftyrolia\x2fpodcast\x5fspecial\x2fpodcast\x5fspecial\x5fen\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="at.cropfm">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?cropfm\x2eat\x2fcropfm\x2fservices\x2fcropfmrssservlet</matching>
+    </ruleset>
+
+    <ruleset domain="at.dahl">
+      <matching>^http(s)?\x3a\x2f\x2fdahl\x2eat\x2fwordpress\x2fsocial\x5fmarketing\x5fpodcast\x2fpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="at.ffpoe">
+      <matching>^http(s)?\x3a\x2f\x2fffpoe\x2eat\x2ffeed\x2fpodcast\x2f</matching>
     </ruleset>
 
     <ruleset domain="at.fro">
@@ -110,8 +225,12 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d]{1,})\x2efro\x2eat\x2ftag\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed</matching>
     </ruleset>
 
-    <ruleset domain="at.cropfm">
-      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?cropfm\x2eat\x2fcropfm\x2fservices\x2fcropfmrssservlet</matching>
+    <ruleset domain="at.gabelbissen">
+      <matching>^http(s)?\x3a\x2f\x2fgabelbissen\x2eat\x2ffeed\x2fgabelbissen\x2f</matching>
+    </ruleset>
+    
+    <ruleset domain="at.grafzyx">
+      <matching>^http(s)?\x3a\x2f\x2fprofiles\x2egrafzyx\x2eat\x2fpods\x2ftango\x2exml</matching>
     </ruleset>
 
     <ruleset domain="at.hearthis">
@@ -119,6 +238,14 @@
       <matching>^http(s)?\x3a\x2f\x2fhearthis\x2eat\x2fset\x2f([a-z0-9\x2d]{1,})\x2fpodcast\x2f(rss\x2f)?</matching>
       <matching>^http(s)?\x3a\x2f\x2fhearthis\x2eat\x2f([a-z0-9\x2d\x5f]{1,})\x2fpodcast\x2f(\x3flimit\x3d(\d{1,}))</matching>
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?hearthis\x2eat\x2f([a-z0-9\x2d\x5f]{1,})\x2fpodcast\x2exml\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="at.icf-vlbg">
+      <matching>^http(s)?\x3a\x2f\x2ffeeds\x2eicf\x2dvlbg\x2eat\x2ficf\x2dvlbg\x2daudio\x2dde</matching>
+    </ruleset>
+    
+    <ruleset domain="at.jedv">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ejedv\x2eat\x2fpodcast\x2fwhistlerrss\x2exml</matching>
     </ruleset>
 
     <ruleset domain="at.liferadio">
@@ -133,24 +260,472 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?philo\x2eat\x2fpodcasts\x2ffeed\x2f([a-z0-9\x2d\x5f]{1,})\x2exml</matching>
     </ruleset>
 
+    <ruleset domain="at.reisen-wandern-tauchen">
+      <matching>^http(s)?\x3a\x2f\x2ffeeds\x2ereisen\x2dwandern\x2dtauchen\x2eat\x2findividuell\x2dunterwegs</matching>
+    </ruleset>
+
+    <ruleset domain="at.safen">
+      <matching>^http(s)?\x3a\x2f\x2fahandler\x2esafen\x2eat\x2fpod\x2frss\x2frss\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="at.schoenbrunn">
+      <matching>^http(s)?\x3a\x2f\x2fpodcast\x2eschoenbrunn\x2eat\x2faudioguide\x2fEN\x2faudioguide\x2erss</matching>
+    </ruleset>
+
+    <ruleset domain="at.uni-graz">
+      <matching>^http(s)?\x3a\x2f\x2fgams\x2euni\x2dgraz\x2eat\x2ffedora\x2fget\x2fpodcast\x5f\x5fpug\x2dwebradio\x2dveranstaltungen\x2frss\x2exml</matching>
+    </ruleset>
+    
+    <ruleset domain="at.veganinchen">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eveganinchen\x2eat\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+    
+    <ruleset domain="at.xeroxc">
+      <matching>^http(s)?\x3a\x2f\x2fmonkeyboy\x2exeroxc\x2eat\x2ffeed\x2exml</matching>
+    </ruleset>
+
   </ruletld>
 
   <ruletld tld="au">
 
+    <ruleset domain="au.asn.nac">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2enac\x2easn\x2eau\x2fresources\x2fsermons\x2fbible\x2dtalks\x2dlisten\x2f\x3fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.101businessradio">
+      <matching>^http(s)?\x3f\x3a\x2f\x2f101businessradio\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.3pod">
+      <matching>^http(s)?\x3f\x3a\x2f\x2f3pod\x2ecom\x2eau\x2fsite\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.activatelife">
+      <matching>^http(s)?\x3f\x3a\x2f\x2factivatelife\x2ecom\x2eau\x2fcategory\x2fpodcast\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.adelaidebusinessevents">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fadelaidebusinessevents\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f\x3ftake\x3d2</matching>
+    </ruleset>
+
     <ruleset domain="au.com.adelaidefestival">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?adelaidefestival\x2ecom\x2eau\x2fpodcasts\x2f([a-z0-9\x2b\x2d\x5f]{1,})\x2etxt</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.amymcdonald">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2eamymcdonald\x2ecom\x2eau\x2fabundantyogateacherpodcasts\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.ariseandshine">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fariseandshine\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.arisechurch">
+      <matching>^http(s)?\x3f\x3a\x2f\x2farisechurch\x2ecom\x2eau\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.artofthescore">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2eartofthescore\x2ecom\x2eau\x2fpodcast\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.aspectlegal">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2easpectlegal\x2ecom\x2eau\x2fcategory\x2fpodcast\x2fpodcast\x2ddeal\x2droom\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.aussieonlineentrepreneurs">
+      <matching>^http(s)?\x3f\x3a\x2f\x2faussieonlineentrepreneurs\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.australiangeographic">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2eaustraliangeographic\x2ecom\x2eau\x2ffeed\x2fpodcast\x2ftalking\x5faustralia</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.balgowlahanglican">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fbalgowlahanglican\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.beachway">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fbeachway\x2ecom\x2eau\x2fpodcast\x2faudio\x2dpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.beyondering">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fbeyondering\x2ecom\x2eau\x2fcategory\x2fbeyondering\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.blogspot">
+      <matching>^http(s)?\x3f\x3a\x2f\x2f([a-z0-9\x2d\x5f]{1,})\x2eblogspot\x2ecom\x2eau\x2ffeeds\x2fposts\x2fdefault\x3falt\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.bluewiremedia">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2ebluewiremedia\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.bninetworkgeelong">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fbninetworkgeelong\x2ecom\x2eau\x2fpodcasts\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.brainandbodyhealth">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2ebrainandbodyhealth\x2ecom\x2eau\x2fcategory\x2fbrain\x2dand\x2dbody\x2dhealth\x2dtalk\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.buscgroup">
+      <matching>^http(s)?\x3f\x3a\x2f\x2fwww\x2ebuscgroup\x2ecom\x2eau\x2fcategory\x2fprop\x2ddev\x2dseries\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.c3churchwatson">
+      <matching>^http(s)?\x3a\x2f\x2fc3churchwatson\x2ecom\x2eau\x2fc3\x2dchurch\x2dwatson\x2dpodcast\x3fformat\x3dRSS</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.c3kw">
+      <matching>^http(s)?\x3a\x2f\x2fpodcast\x2ec3kw\x2ecom\x2eau\x2frss1\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.c3lanecove">
+      <matching>^http(s)?\x3a\x2f\x2fc3lanecove\x2ecom\x2eau\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.calvarychapelalbany">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ecalvarychapelalbany\x2ecom\x2eau\x2fPodcast\x2fPastorChris\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.castawaystudios">
+      <matching>^http(s)?\x3a\x2f\x2fcastawaystudios\x2ecom\x2eau\x2fcategory\x2fnews\x2din\x2dbriefs\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.chewingthefatonflexibility">
+      <matching>^http(s)?\x3a\x2f\x2fchewingthefatonflexibility\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.chrisbrazel">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2echrisbrazel\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.citylightchurch">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ecitylightchurch\x2ecom\x2eau\x2fpodcasts\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.collinsfinancialgroup">
+      <matching>^http(s)?\x3a\x2f\x2fcollinsfinancialgroup\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.corporatepodcastproduction">
+      <matching>^http(s)?\x3a\x2f\x2fcorporatepodcastproduction\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.creativepossibility">
+      <matching>^http(s)?\x3a\x2f\x2fcreativepossibility\x2ecom\x2eau\x2fcategory\x2floe\x2dpodcast\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.destroydigital">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2edestroydigital\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.digicosm">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2edigicosm\x2ecom\x2eau\x2fscitechculture\x2fscitechculture\x2ditunes\x2dmp3\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.digital-marketing-course">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2edigital\x2dmarketing\x2dcourse\x2ecom\x2eau\x2fpodcast\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.divorcecoach">
+      <matching>^http(s)?\x3a\x2f\x2fdivorcecoach\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
     </ruleset>
 
     <ruleset domain="au.com.drn1">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?drn1\x2ecom\x2eau\x2ffeed\x2f([a-z0-9]{1,})</matching>
     </ruleset>
 
+    <ruleset domain="au.com.eat-real-food">
+      <matching>^http(s)?\x3a\x2f\x2feat\x2dreal\x2dfood\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.enfieldbaptist">
+      <matching>^http(s)?\x3a\x2f\x2fenfieldbaptist\x2ecom\x2eau\x2f\x3fpage\x5fid\x3d9\x26podcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.englishonlineaustralia">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eenglishonlineaustralia\x2ecom\x2eau\x2fpodcast\x5fitunes\x2fpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.evertonparkchurch">
+      <matching>^http(s)?\x3a\x2f\x2fevertonparkchurch\x2ecom\x2eau\x2fsermons\x2f\x3fpodcast</matching>
+    </ruleset>
+
     <ruleset domain="au.com.faithfm">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?faithfm\x2ecom\x2eau\x2fpodcast\x2f\x3fprogram\x3d([a-z0-9\x25\x2d\x5f]{1,})</matching>
     </ruleset>
 
+    <ruleset domain="au.com.fiitprofessional">
+      <matching>^http(s)?\x3a\x2f\x2ffiitprofessional\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.footyrhino">
+      <matching>^http(s)?\x3a\x2f\x2ffootyrhino\x2ecom\x2eau\x2fwordpress\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.footytalk">
+      <matching>^http(s)?\x3a\x2f\x2ffootytalk\x2ecom\x2eau\x2f\x3ffeed\x3dpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.frenchyourway">
+      <matching>^http(s)?\x3a\x2f\x2ffrenchyourway\x2ecom\x2eau\x2fcategory\x2ffywpodcast\x2ffeed</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.gatewaybaptist">
+      <matching>^http(s)?\x3a\x2f\x2fmedia\x2egatewaybaptist\x2ecom\x2eau\x2fmackenzie\x2faudio\x2fpodcast\x2erss</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.gayradio">
+      <matching>^http(s)?\x3a\x2f\x2fgayradio\x2ecom\x2eau\x2fbreko\x5fand\x5fkat\x5fpodcast\x2ffeed\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.geniesdownunder">
+      <matching>^http(s)?\x3a\x2f\x2fgeniesdownunder\x2ecom\x2eau\x2fpodcasts\x2fgdu\x5ffree\x5fpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.georgechristensen">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2egeorgechristensen\x2ecom\x2eau\x2fpodcast\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.golfaustralia">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2egolfaustralia\x2ecom\x2eau\x2fpodcast\x2fthingaboutgolf\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.gracelife">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2egracelife\x2ecom\x2eau\x2faudio\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.grow-capital">
+      <matching>^http(s)?\x3a\x2f\x2fgrow\x2dcapital\x2ecom\x2eau\x2fpodcasts\x2f\x3ffeed\x3dpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.halfwild">
+      <matching>^http(s)?\x3a\x2f\x2fhalfwild\x2ecom\x2eau\x2fGTpodcast\x2fGTpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.hardhouse">
+      <matching>^http(s)?\x3a\x2f\x2fhardhouse\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.heretothrive">
+      <matching>^http(s)?\x3a\x2f\x2fheretothrive\x2ecom\x2eau\x2fsermons\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.hollyg">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ehollyg\x2ecom\x2eau\x2fcategory\x2ftourismupgrade\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.hope1032">
+      <matching>^http(s)?\x3a\x2f\x2fhope1032\x2ecom\x2eau\x2fpodcast\x2fchristian\x2dgrowth\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.hornsbybaptist">
+      <matching>^http(s)?\x3a\x2f\x2fhornsbybaptist\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.humourdoor">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ehumourdoor\x2ecom\x2eau\x2ffeed\x2fpodcast\x2fwikireview</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.iforgiveyou">
+      <matching>^http(s)?\x3a\x2f\x2fiforgiveyou\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.inspiredcareerscoaching">
+      <matching>^http(s)?\x3a\x2f\x2finspiredcareerscoaching\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.investsense">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2einvestsense\x2ecom\x2eau\x2finsights\x2dblog\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.ironfistvelvetglove">
+      <matching>^http(s)?\x3a\x2f\x2fironfistvelvetglove\x2ecom\x2eau\x2f\x3ffeed\x3dpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.irongolfmind">
+      <matching>^http(s)?\x3a\x2f\x2firongolfmind\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.itmaze">
+      <matching>^http(s)?\x3a\x2f\x2fpodcasts\x2eitmaze\x2ecom\x2eau\x2ff\x2dcall\x2ffeed\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.jeremywilmot">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ejeremywilmot\x2ecom\x2eau\x2fPodcast\x2fSIFP\x2fSIFP\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.juliefreeman">
+      <matching>^http(s)?\x3a\x2f\x2fjuliefreeman\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.keaton">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ekeaton\x2ecom\x2eau\x2fpodcast\x2ffeed\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.killyourdarlings">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ekillyourdarlings\x2ecom\x2eau\x2ffeed\x2fthe\x2dpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.kissphotography">
+      <matching>^http(s)?\x3a\x2f\x2fkissphotography\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.lawbiznews">
+      <matching>^http(s)?\x3a\x2f\x2flawbiznews\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.lawcover">
+      <matching>^http(s)?\x3a\x2f\x2flawcover\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.life-church">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2elife\x2dchurch\x2ecom\x2eau\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.lifestylerefocus">
+      <matching>^http(s)?\x3a\x2f\x2flifestylerefocus\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.liquidchurch">
+      <matching>^http(s)?\x3a\x2f\x2fliquidchurch\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.localforyou">
+      <matching>^http(s)?\x3a\x2f\x2flocalforyou\x2ecom\x2eau\x2fcategory\x2fpodcast\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.lucydickens">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2elucydickens\x2ecom\x2eau\x2fcategory\x2fdoing\x2dlaw\x2ddifferently\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.makingart">
+      <matching>^http(s)?\x3a\x2f\x2fmakingart\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.markbouris">
+      <matching>^http(s)?\x3a\x2f\x2fmarkbouris\x2ecom\x2eau\x2f\x3ffeed\x3ditunes</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.marketingcrunchpodcast">
+      <matching>^http(s)?\x3a\x2f\x2fmarketingcrunchpodcast\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.mavndigital">
+      <matching>^http(s)?\x3a\x2f\x2fmavndigital\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.mfp">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2emfp\x2ecom\x2eau\x2fangelwanderer\x2ffeed\x2fpodcast\x2fa\x2dsexless\x2dmarriage\x2ddirty\x2drabbit\x2dhole\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.mikeit">
+      <matching>^http(s)?\x3a\x2f\x2fedgepodcasts\x2emikeit\x2ecom\x2eau\x2fgraemelauridsen\x2fpodcastblastergl\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.motorcyclelife">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2emotorcyclelife\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.optuszoo">
+      <matching>^http(s)?\x3a\x2f\x2fmembers\x2eoptuszoo\x2ecom\x2eau\x2f~ugg77\x2frss\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.peopleshistory">
+      <matching>^http(s)?\x3a\x2f\x2fpeopleshistory\x2ecom\x2eau\x2findex\x2ephp\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.pinheadz">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2epinheadz\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.reallifechurchwa">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ereallifechurchwa\x2ecom\x2eau\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.realstories">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2erealstories\x2ecom\x2eau\x2fpodcasts\x2frealpodcasts\x2fxml\x2fRSpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.reelchat">
+      <matching>^http(s)?\x3a\x2f\x2freelchat\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.salty">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2esalty\x2ecom\x2eau\x2ffeeds\x2fsaltyblues\x2exml</matching>
+    </ruleset>
+
     <ruleset domain="au.com.sbs">
       <matching>^http(s)?\x3a\x2f\x2ffeeds\x2esbs\x2ecom\x2eau\x2f([a-z0-9\x2d\x5f]{1,})</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.seamist">
+      <matching>^http(s)?\x3a\x2f\x2ftestdrive\x2eseamist\x2ecom\x2eau\x2fStartups\x2ecom\x2eau\x2fMorning\x5fStartup\x5fPodcast\x2frss\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.secretagencies">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2esecretagencies\x2ecom\x2eau\x2fherdmentality\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.simplereflect">
+      <matching>^http(s)?\x3a\x2f\x2fblog\x2esimplereflect\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.sportradio">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2esportradio\x2ecom\x2eau\x2fsrpod\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.starsparkles">
+      <matching>^http(s)?\x3a\x2f\x2fstarsparkles\x2ecom\x2eau\x2fpodcast\x2fpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.tak-games">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2etak\x2dgames\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.theaustralian">
+      <matching>^http(s)?\x3a\x2f\x2fmedia\x2etheaustralian\x2ecom\x2eau\x2fprojects\x2fpodcasts\x2fauscomment\x2fauscomment\x2dipod\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.thepropertycouch">
+      <matching>^http(s)?\x3a\x2f\x2fthepropertycouch\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.thestellaprize">
+      <matching>^http(s)?\x3a\x2f\x2fthestellaprize\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.thevitalitycoach">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ethevitalitycoach\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.viewlegal">
+      <matching>^http(s)?\x3a\x2f\x2fviewlegal\x2ecom\x2eau\x2fcategory\x2fpodcast\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.washingtonbrown">
+      <matching>^http(s)?\x3a\x2f\x2fblog\x2ewashingtonbrown\x2ecom\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.wickedcowmarketing">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ewickedcowmarketing\x2ecom\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.woodvalebaptist">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ewoodvalebaptist\x2ecom\x2eau\x2fwbc\x2dsermons\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.com.workplaceincentives">
+      <matching>^http(s)?\x3a\x2f\x2fmedia\x2eworkplaceincentives\x2ecom\x2eau\x2fpodcastgen\x2ffeed\x2ephp\x3fcat\x3dabout\x5fwi</matching>
+    </ruleset>
+
+    <ruleset domain="au.edu.anu">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eanu\x2eedu\x2eau\x2f\x5fanu\x2fxml\x2fitunesu\x2fbusiness\x5fand\x5feconomics\x2exml</matching>
+    </ruleset>
+    
+    <ruleset domain="au.edu.avondale">
+      <matching>^http(s)?\x3a\x2f\x2fwp\x2eavondale\x2eedu\x2eau\x2fnews\x2ffeed\x2fpodcast\x2ffestival\x2dof\x2dfaith\x2djesus\x2dthe\x2drighteous\x2done\x2d2013</matching>
     </ruleset>
 
     <ruleset domain="au.edu.deakin">
@@ -166,34 +741,320 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2e]{1,})?latrobe\x2eedu\x2eau\x2fmarketing\x2fassets\x2fpodcasts\x2frssfeeds\x2f([a-z0-9\x2d]{1,})\x2exml</matching>
     </ruleset>
 
+    <ruleset domain="au.edu.qtc">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eqtc\x2eedu\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+    
+    <ruleset domain="au.edu.qut">
+      <matching>^http(s)?\x3a\x2f\x2fitunesu\x2equt\x2eedu\x2eau\x2fhealth\x2fcedm\x2fxml\x2fqut\x2dhealth\x2dcedm\x2exml</matching>
+    </ruleset>
+
     <ruleset domain="au.edu.rmit">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?rmit\x2eedu\x2eau\x2f\x3fq\x3ditunes\x2frss\x2f(\d{1,})\x2fchannel\x2f(\d{1,})</matching>
+    </ruleset>
+
+    <ruleset domain="au.edu.smbc">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2esmbc\x2eedu\x2eau\x2fresources\x2fPH\x5fFeed</matching>
+    </ruleset>
+
+    <ruleset domain="au.edu.swinburne">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eswinburne\x2eedu\x2eau\x2fapp\x2fcommons\x2dfeeds\x2frss\x2f23390282\x2exml</matching>
     </ruleset>
 
     <ruleset domain="au.edu.tafesa">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?tafesa\x2eedu\x2eau\x2fpodcast\x2ephp\x3fcat\x3d([a-z0-9\x2d\x3a\x5f]{1,})</matching>
     </ruleset>
 
+    <ruleset domain="au.edu.unimelb">
+      <matching>^http(s)?\x3a\x2f\x2ffeeds\x2eunimelb\x2eedu\x2eau\x2fmelbourneunivisions</matching>
+    </ruleset>
+
+    <ruleset domain="au.edu.unisa">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?unisa\x2eedu\x2eau\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x3fid\x3d([a-f0-9\x2d]{36})\x26type\x3d([a-z0-9\x2d\x5f]{1,})</matching>
+    </ruleset>
+
+    <ruleset domain="au.edu.uts">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2enobel\x2euts\x2eedu\x2eau\x2fprograms\x2fpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.gov.defencejobs">
+      <matching>^http(s)?\x3a\x2f\x2fcontent\x2edefencejobs\x2egov\x2eau\x2fmediacentre\x2fchannels\x2farmyrise\x2fpodcast\x5farmyrise\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.gov.nla">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2enla\x2egov\x2eau\x2fpodcasts\x2ffeeds\x2fliterature\x2darts\x2exml</matching>
+    </ruleset>
+
     <ruleset domain="au.gov.nma">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nma\x2egov\x2eau\x2faudio\x2fitunes\x2drss</matching>
-    </ruleset>
-
-    <ruleset domain="au.org.3cr">
-      <matching>^http(s)?\x3a\x2f\x2fwww\x2e3cr\x2eorg\x2eau\x2f([a-z0-9\x2d\x5f]{1,})\x2fitunes</matching>
-    </ruleset>
-
-    <ruleset domain="au.org.cpod">
-      <matching>^http(s)?\x3a\x2f\x2f([a-z\x2e]{1,})?cpod\x2eorg\x2eau\x2ffeed\x2ephp\x3fid\x3d(\d{1,})</matching>
-    </ruleset>
-
-    <ruleset domain="au.org.joy">
-      <matching>^http(s)?\x3a\x2f\x2fjoy\x2eorg\x2eau\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2fpodcast(\x2f)?</matching>
     </ruleset>
 
     <ruleset domain="au.net.abc">
       <matching>^http(s)?\x3a\x2f\x2f(www\x2e)?abc\x2enet\x2eau\x2f([a-z0-9\x2d]{1,})\x2f([a-z0-9\x2d]{1,})\x2f([a-z0-9\x2d\x2f]{1,})\x2fpodcast\x2exml</matching>
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?abc\x2enet\x2eau\x2fradionational\x2ffeed\x2f(\d{1,})\x2fpodcast\x2exm(l)?</matching>
     </ruleset>
+
+    <ruleset domain="au.net.c3j">
+      <matching>^http(s)?\x3a\x2f\x2fc3j\x2enet\x2eau\x2fhome\x2fwp\x2dcontent\x2fstreaming\x2fpodcasts\x2fC3J\x2dpodcast\x2erss</matching>
+    </ruleset>
+
+    <ruleset domain="au.net.coastec">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ecoastec\x2enet\x2eau\x2fall\x2dbible\x2dtalks\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.net.dsn">
+      <matching>^http(s)?\x3a\x2f\x2ffce\x2edsn\x2enet\x2eau\x2ffeed\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.net.hopechurch">
+      <matching>^http(s)?\x3a\x2f\x2fhopechurch\x2enet\x2eau\x2fpodcast\x2fpodcast\x2exml</matching>
+    </ruleset>
+    
+    <ruleset domain="au.net.iinet">
+      <matching>^http(s)?\x3a\x2f\x2fmembers\x2eiinet\x2enet\x2eau\x2f~panthr88\x2fsummersnights\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.net.parkerville">
+      <matching>^http(s)?\x3a\x2f\x2fsermons\x2eparkerville\x2enet\x2eau\x2f\x3fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.net.player2">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eplayer2\x2enet\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.net.xyz">
+      <matching>^http(s)?\x3a\x2f\x2fxyz\x2enet\x2eau\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.3cr">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2e3cr\x2eorg\x2eau\x2f([a-z0-9\x2d\x5f]{1,})\x2fitunes</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.ablaze">
+      <matching>^http(s)?\x3a\x2f\x2fablaze\x2eorg\x2eau\x2fproduction\x2fword\x2exml</matching>
+    </ruleset>
+    
+    <ruleset domain="au.org.alburychurch">
+      <matching>^http(s)?\x3a\x2f\x2falburychurch\x2eorg\x2eau\x2ffeed\x2falbury\x2dpresbyterian\x2dchurch\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.alstonvillebaptist">
+      <matching>^http(s)?\x3a\x2f\x2falstonvillebaptist\x2eorg\x2eau\x2fsermons\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.anew">
+      <matching>^http(s)?\x3a\x2f\x2fanew\x2eorg\x2eau\x2ftalks\x2fanewtalks\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.apshpc">
+      <matching>^http(s)?\x3a\x2f\x2fapshpc\x2eorg\x2eau\x2fsermons\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.assyrianchurch">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eassyrianchurch\x2eorg\x2eau\x2fcategory\x2fmedia\x2faudio\x2fradio\x2fvoice\x2dof\x2dthe\x2dyouth\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.bdcu">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ebdcu\x2eorg\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.bendigobaptist">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ebendigobaptist\x2eorg\x2eau\x2faudiopodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.bethelcrc">
+      <matching>^http(s)?\x3a\x2f\x2fbethelcrc\x2eorg\x2eau\x2fsermons\x2ffeed\x2f</matching>
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ebethelcrc\x2eorg\x2eau\x2fsermons\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.brf">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ebrf\x2eorg\x2eau\x2frssaudio\x2frf\x2erss</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.burwoodbpc">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eburwoodbpc\x2eorg\x2eau\x2fsermons\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.bze">
+      <matching>^http(s)?\x3a\x2f\x2fbze\x2eorg\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.capitaledge">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ecapitaledge\x2eorg\x2eau\x2fpodcastgen\x2ffeed\x2exml\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.claytonchurch">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2eclaytonchurch\x2eorg\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.coastfm">
+      <matching>^http(s)?\x3a\x2f\x2fcoastfm\x2eorg\x2eau\x2ffeeds\x2fcoastfm963\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.cpod">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z\x2e]{1,})?cpod\x2eorg\x2eau\x2ffeed\x2ephp\x3fid\x3d(\d{1,})</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.crossroadscc">
+      <matching>^http(s)?\x3a\x2f\x2fcrossroadscc\x2eorg\x2eau\x2f\x3ffeed\x3dpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.crossway">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ecrossway\x2eorg\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.crpc">
+      <matching>^http(s)?\x3a\x2f\x2fcrpc\x2eorg\x2eau\x2fsermons\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.cu">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2egeelong\x2ecu\x2eorg\x2eau\x2f\x3ffeed\x3dpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.disciples">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2edisciples\x2eorg\x2eau\x2ffeeds\x2fsermons</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.doorofhope">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2edoorofhope\x2eorg\x2eau\x2fsite\x2fpodcast\x5frss\x2easp\x3fsec\x5fid\x3d180015229\x26fileNumber\x3d</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.enviro">
+      <matching>^http(s)?\x3a\x2f\x2fenviro\x2eorg\x2eau\x2fenews\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.families">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2efamilies\x2eorg\x2eau\x2fpodcast\x2erss</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.fcfmacarthur">
+      <matching>^http(s)?\x3a\x2f\x2ffcfmacarthur\x2eorg\x2eau\x2ffeed\x2fpodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.gracechurchintl">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2egracechurchintl\x2eorg\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.gwuc">
+      <matching>^http(s)?\x3a\x2f\x2fgwuc\x2eorg\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.hillschurch">
+      <matching>^http(s)?\x3a\x2f\x2fhillschurch\x2eorg\x2eau\x2fpodcast\x2fpodcast\x2erss</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.jewsforjesus">
+      <matching>^http(s)?\x3a\x2f\x2fjewsforjesus\x2eorg\x2eau\x2fpodcast\x2famos\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.joy">
+      <matching>^http(s)?\x3a\x2f\x2fjoy\x2eorg\x2eau\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2fpodcast(\x2f)?</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.kerangpresbyterian">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ekerangpresbyterian\x2eorg\x2eau\x2fpodcastgen\x2ffeed\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.lakesbaptist">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2elakesbaptist\x2eorg\x2eau\x2fpodcast\x2ffeed\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.lifepointe">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2elifepointe\x2eorg\x2eau\x2fpodcasts\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.mbhbc">
+      <matching>^http(s)?\x3a\x2f\x2fmbhbc\x2eorg\x2eau\x2fpodcasts\x2fpodcast\x2ephp</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.mbm">
+      <matching>^http(s)?\x3a\x2f\x2fmbm\x2eorg\x2eau\x2fbible\x2dtalks\x2fservice\x2dtype\x2fother\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.meditation">
+      <matching>^http(s)?\x3a\x2f\x2fmeditation\x2eorg\x2eau\x2fchildrensmeditation\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.melbournebuddhistcentre">
+      <matching>^http(s)?\x3a\x2f\x2fmelbournebuddhistcentre\x2eorg\x2eau\x2faudio\x2ffeed\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.messagesofhope">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2emessagesofhope\x2eorg\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.mitchambaptist">
+      <matching>^http(s)?\x3a\x2f\x2fmitchambaptist\x2eorg\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.mpc">
+      <matching>^http(s)?\x3a\x2f\x2fmedia\x2empc\x2eorg\x2eau\x2f300Men\x2faudio\x2f300MenPodcast\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.newcommunitychurch">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2enewcommunitychurch\x2eorg\x2eau\x2fncc\x2dsermon\x2darchive\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.redcross">
+      <matching>^http(s)?\x3a\x2f\x2faftertheemergency\x2epodcasts\x2eredcross\x2eorg\x2eau\x2frss</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.rrr">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2errr\x2eorg\x2eau\x2fexplore\x2fpodcasts\x2fprimal\x2dscreen\x2ffeed\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.rtcc">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ertcc\x2eorg\x2eau\x2fpodcast\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.salvationarmy">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2esalvationarmy\x2eorg\x2eau\x2fbrisbanecity\x2ffeeds\x2fbct\x2dmessages\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.scc">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2escc\x2eorg\x2eau\x2fpodcast\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.soulsurvivornsw">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2esoulsurvivornsw\x2eorg\x2eau\x2fpodcasts\x3fformat\x3drss</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.sourcehealing">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2esourcehealing\x2eorg\x2eau\x2fsourcehealingchant\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.southernlights">
+      <matching>^http(s)?\x3a\x2f\x2flaunceston\x2esouthernlights\x2eorg\x2eau\x2fsermons\x2ffeed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.st-thomas">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2est\x2dthomas\x2eorg\x2eau\x2ffeed\x2fpodcast</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.sueu">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2esueu\x2eorg\x2eau\x2fresources\x2ffeed</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.thewire">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ethewire\x2eorg\x2eau\x2ffeed\x2ffullshow</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.tln">
+      <matching>^http(s)?\x3a\x2f\x2ffeeds\x2etln\x2eorg\x2eau\x2ffeed\x2fpodcast\x2feducationally\x2dsound</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.trinitychurch">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2etrinitychurch\x2eorg\x2eau\x2fsermons\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.vc">
+      <matching>^http(s)?\x3a\x2f\x2fvc\x2eorg\x2eau\x2ffeed\x2fpodcast\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="au.org.westpoint">
+      <matching>^http(s)?\x3a\x2f\x2fwww\x2ewestpoint\x2eorg\x2eau\x2ffeed\x2fpodcast\x2fwestpoint\x2dcity\x2dchurch</matching>
+    </ruleset>
+
 
 
   </ruletld>
@@ -411,6 +1272,10 @@
 
     <ruleset domain="ca.globalnews">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?globalnews\x2eca\x2fgnca\x2dajax\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="ca.maranathabowmanville">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?maranathabowmanville\x2eca\x2finc\x2ffeeds\x2fpodcast\x2dlib\x2emedia\x2f([a-z0-9\x2d\x5f]{1,})</matching>
     </ruleset>
 
     <ruleset domain="ca.ptbopodcasters">
@@ -873,6 +1738,11 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?ask1radio\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2f</matching>
     </ruleset>
 
+    <ruleset domain="com.aspireone">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?aspireone\x2ecom\x2fmediaplayer\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})podcast\x2easpx\x3fid\x3d(\d{1,})</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?aspireone\x2ecom\x2fmediaplayer\x2f([a-z0-9\x2d\x5f]{1,})\x2fcategory\x5frss\x2easpx\x3fid\x3d(\d{1,})</matching>
+    </ruleset>
+
     <ruleset domain="com.aspireonemedia">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?aspireonemedia\x2ecom\x2fmediaplayer\x2f([a-z0-9\x2d\x5f]{1,})\x2fcategory\x5frss\x2easpx\x3fid\x3d(\d{1,})</matching>
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?aspireonemedia\x2ecom\x2fmediaplayer\x2f([a-z0-9\x2d\x5f]{1,})\x2fonthespot\x5frss\x2easpx\x3fid\x3d(\d{1,})</matching>
@@ -894,6 +1764,11 @@
 
     <ruleset domain="com.audioacrobat">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9]{1,})\x2eaudioacrobat\x2ecom\x2frss\x2f([a-z0-9\x2d\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="com.audioagain">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?audioagain\x2ecom\x2fpodcast\x2ephp\x3fchannel\x3d([a-z0-9\x2d\x5f]{1,})</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?audioagain\x2ecom\x2fpodcast\x5ffeed\x2ephp\x3fchannel\x3d([a-z0-9\x2d\x5f]{1,})</matching>
     </ruleset>
 
     <ruleset domain="com.audiobiblepodcast">
@@ -926,6 +1801,10 @@
 
     <ruleset domain="com.axosoft">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?axosoft\x2ecom\x2fpodcasts\x2f([a-z0-9\x28\x29\x2d\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="com.azure">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?cloudapp\x2eazure\x2ecom\x2fpodcast\x2fpodcast\x2dgen\x2fmedia\x2f([a-z0-9\x2d\x5f]{1,})\x2ephp</matching>
     </ruleset>
 
     <ruleset domain="com.backdoorpodcasts">
@@ -1585,6 +2464,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?grupolatinoderadio\x2ecom\x2finfo\x2fxmlitunes\x5f([a-z0-9\x2d\x5f]{1,})\x2easpx</matching>
     </ruleset>
 
+    <ruleset domain="com.gutensite">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?gutensite\x2ecom\x2fsite\x2fresources\x2fmultimedia\x2fpodcast\x3fcategory\x5fid\x3d(\d{1,})</matching>
+    </ruleset>
+
     <ruleset domain="com.h7solutions">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?h7solutions\x2ecom\x2fmedia\x5ffiles\x2f([a-z0-9\x2d\x5f]{1,})\x2fpodcast\x2exml</matching>
     </ruleset>
@@ -1827,8 +2710,16 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?kelbytv\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2fvideo\x2f</matching>
     </ruleset>
 
+    <ruleset domain="com.kiroradio">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?kiroradio\x2ecom\x2frss\x2fpodcast\x2ephp\x3fs\x3d(\d{1,})</matching>
+    </ruleset>
+
     <ruleset domain="com.kiwi6">
       <matching>^http(s)?\x3a\x2f\x2f([a-z\x2e]{1,})?kiwi6\x2ecom\x2fartists\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2erss</matching>
+    </ruleset>
+
+    <ruleset domain="com.knowdirectionpodcast">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?knowdirectionpodcast\x2ecom\x2frss\x5ffeeds\x2f([a-z0-9\x2d\x5f]{1,})\x2ephp</matching>
     </ruleset>
 
     <ruleset domain="com.kontestacja">
@@ -1904,6 +2795,10 @@
 
     <ruleset domain="com.lighthousetaylorsville">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lighthousetaylorsville\x2ecom\x2fpastor([a-z\x2d\x5f]{1,})\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="com.lijlnetwork">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lijlnetwork\x2ecom\x2frss\x2fitunes\x2f([a-z0-9\x2d\x5f]{1,})</matching>
     </ruleset>
 
     <ruleset domain="com.limelight">
@@ -2051,6 +2946,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?mtvnservices\x2ecom\x2falias\x2fpodcasts\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2exml</matching>
     </ruleset>
 
+    <ruleset domain="com.musees-franchecomte">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?musees\x2dfranchecomte\x2ecom\x2f([a-z]{2,})\x2f([a-z0-9\x2d\x5f]{1,})\x2fpodcasts\x2d([a-z0-9\x2d\x5f]{1,})</matching>
+    </ruleset>
+
     <ruleset domain="com.muslimcentral">
       <matching>^http(s)?\x3a\x2f\x2fmuslimcentral\x2ecom\x2faudio\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2ffeed\x2f</matching>
     </ruleset>
@@ -2074,6 +2973,10 @@
     <ruleset domain="com.mysoundwise">
       <matching>^http(s)?\x3a\x2f\x2fmysoundwise\x2ecom\x2frss\x2f(\d{1,})s</matching>
       <matching>^http(s)?\x3a\x2f\x2fapp\x2emysoundwise\x2ecom\x2frss\x2f(\d{1,})s</matching>
+    </ruleset>
+
+    <ruleset domain="com.nanacast">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nanacast\x2ecom\x2fac\x2f([a-f0-9]{1,})</matching>
     </ruleset>
 
     <ruleset domain="com.narando">
@@ -2195,6 +3098,10 @@
 
     <ruleset domain="com.openlanguage">
       <matching>^http(s)?\x3a\x2f\x2fopenlanguage\x2ecom\x2f([a-z]{1,})\x2fpodcast\x2f([a-z0-9\x2d\x2f\x5f]{1,})</matching>
+    </ruleset>
+
+    <ruleset domain="com.opensystemsmedia">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?opensystemsmedia\x2ecom\x2f([a-z0-9\x2f\x5f]{1,})</matching>
     </ruleset>
 
     <ruleset domain="com.overlyanimated">
@@ -2572,6 +3479,7 @@
     <ruleset domain="com.saddleback">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?saddleback\x2ecom\x2fmc\x2fpodcaststream\x2easpx\x3fp\x3d(\d{1,})\x26iid\x3d([\d\x2d]{1,})\x26site\x3d(\d{1,})</matching>
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?saddleback\x2ecom\x2faudiopodcast\x3fpodcastid\x3d(\d{1,})</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?saddleback\x2ecom\x2fmediacenter\x2fpodcaststream\x2easpx\x3fp\x3d([a-z0-9\x2d\x3d\x5f]{1,})\x26iid\x3d([a-z0-9\x2d\x3d\x5f]{1,})\x26site\x3d([a-z0-9\x2d\x3d\x5f]{1,})</matching>
     </ruleset>
 
     <ruleset domain="com.saooti">
@@ -3168,6 +4076,10 @@
       <matching>^http(s)?\x3a\x2f\x2fwaves8\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f</matching>
     </ruleset>
 
+    <ruleset domain="com.web4kurd">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?web4kurd\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2ephp</matching>
+    </ruleset>
+
     <ruleset domain="com.webdevbreak">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?webdevbreak\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})</matching>
     </ruleset>
@@ -3223,6 +4135,10 @@
 
     <ruleset domain="com.wwdbam">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?wwdbam\x2ecom\x2f\x3ffeed\x3dpodcast\x26podcast\x5fseries\x3d([a-z0-9\x2d\x5f]{1,})</matching>
+    </ruleset>
+
+    <ruleset domain="com.wwl">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?wwl\x2ecom\x2frss\x3fresulttype\x3dmedia\x26s\x3d(\d{1,})</matching>
     </ruleset>
 
     <ruleset domain="com.ximalaya">
@@ -3666,6 +4582,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lakeforest\x2eedu\x2fpodcast\x2eashx$</matching>
     </ruleset>
 
+    <ruleset domain="edu.msstate">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?msstate\x2eedu\x2frssout\x2ephp\x3fid\x3d(\d{1,})</matching>
+    </ruleset>
+
     <ruleset domain="edu.nae">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nae\x2eedu\x2frssfeed\x2f\x3ftarget\x3d(\d{1,})</matching>
     </ruleset>
@@ -3723,6 +4643,7 @@
 
     <ruleset domain="edu.umn">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?umn\x2eedu\x2fmediamill\x2findex\x2ehtml\x3fpodcast\x5fid\x3d(\d{1,})</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?umn\x2eedu\x2fmediamill\x2fgeneraterss\x2ephp\x3fpodcast\x5fid\x3d(\d{1,})</matching>
     </ruleset>
 
     <ruleset domain="edu.unav">
@@ -4246,6 +5167,10 @@
 
     <ruleset domain="fr.unblog">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?unblog\x2efr\x2f([a-z0-9\x2d\x2f\x5f]{1,})?feed\x2f</matching>
+    </ruleset>
+
+    <ruleset domain="fr.univ-lr">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?univ\x2dlr\x2efr\x2fchannels\x2f([a-z0-9\x2d\x5f]{1,})\x2fuitunes</matching>
     </ruleset>
 
     <ruleset domain="fr.univ-lyon2">
@@ -5029,6 +5954,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z\x2e]{1,})?kajian\x2enet\x2fkajian\x2daudio\x2fCeramah\x2f([a-z0-9\x25\x28\x29\x2d\x2e\x2f]{1,})\x2frss\x2exml</matching>
     </ruleset>
 
+    <ruleset domain="net.kkxx">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?kkxx\x2enet\x2fall\x2dpodcasts\x2f([a-z0-9\x2d\5f]{1,})\x2f</matching>
+    </ruleset>
+
     <ruleset domain="net.koelab">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?koelab\x2enet\x2ffeed\x2f(podcast\x2f)?</matching>
     </ruleset>
@@ -5230,6 +6159,10 @@
   </ruletld>
 
   <ruletld tld="no">
+
+    <ruleset domain="no.livets-vann">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?livets\x2dvann\x2eno\x2f([a-z0-9\x2d\x5f]{1,})\x2f</matching>
+    </ruleset>
 
     <ruleset domain="no.norea">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?norea\x2eno\x2f\x5fservice\x2f(\d{1,})\x2fpodcast\x2fview\x2f(\d{1,})</matching>
@@ -5619,6 +6552,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2e]{1,})?europalibera\x2eorg\x2fpodcast\x2f\x3fcount\x3d(\d{1,})\x26zoneId\x3d(\d{1,})</matching>
     </ruleset>
 
+    <ruleset domain="org.fellowshipnwa">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?fellowshipnwa\x2eorg\x2f([a-z0-9\x2d\x5f]{1,})\x2faudio\x5fitunes\x2frss\x2frss([a-z0-9\x2d\x5f]{1,})\x2easp</matching>
+    </ruleset>
+
     <ruleset domain="org.ficpa">
       <matching>^http(s)?\x3a\x2f\x2fwww\x2eficpa\x2eorg\x2fcontent\x2f(\d{1,})\x2easpx\x3fi\x3d(\d{1,})\x26m\x3d([a-z]{1,})\x26id\x3d(\d{1,})\x26rss\x3d1</matching>
     </ruleset>
@@ -5727,6 +6664,10 @@
 
     <ruleset domain="org.knkx">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?knkx\x2eorg\x2fpodcasts\x2f(term\x2f)?(\d{1,})\x2frss\x2exml</matching>
+    </ruleset>
+
+    <ruleset domain="org.kolhatorah">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?kolhatorah\x2eorg\x2f([a-z0-9\x2d\x5f]{1,})rss\x2ephp</matching>
     </ruleset>
 
     <ruleset domain="org.kpfa">
@@ -5857,6 +6798,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?northcountrypublicradio\x2eorg\x2f([a-z0-9\x2d\x5f]{1,})\x2ephp</matching>
     </ruleset>
 
+    <ruleset domain="org.northridge">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?northridge\x2eorg\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})\x2f</matching>
+    </ruleset>
+
     <ruleset domain="org.norwalksda">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?norwalksda\x2eorg\x2fpodcasts\x2f(\d{1,})\x2erss</matching>
     </ruleset>
@@ -5918,6 +6863,10 @@
       <matching>^http(s)?\x3a\x2f\x2fpodcasts\x2epcrcollective\x2eorg\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2erss</matching>
     </ruleset>
 
+    <ruleset domain="org.peachtreepres">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?peachtreepres\x2eorg\x2fpodcast\x2f\x3fcategory\x3d([a-z0-9\x2d\x5f]{1,})\x26type\x3daudio\x26format\x3dmp3</matching>
+    </ruleset>
+
     <ruleset domain="org.pleasantviewcma">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?pleasantviewcma\x2eorg\x2fsermon\x2dpodcast\x2easpx</matching>
     </ruleset>
@@ -5955,6 +6904,10 @@
       <matching>^http(s)?\x3a\x2f\x2ffeeds\x2epublicradio\x2eorg\x2fpublic\x5ffeeds\x2f([a-z0-9\x2d\x5f]{1,})\x2f(rss|itunes|radiopublic|npr)\x2frss</matching>
       <matching>^http(s)?\x3a\x2f\x2flegacyfeeds\x2epublicradio\x2eorg\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2exml</matching>
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?publicradio\x2eorg\x2fpodcasts\x2fxml\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ephp</matching>
+    </ruleset>
+
+    <ruleset domain="org.radioamerica">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?radioamerica\x2eorg\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2epl\x3ftap\x3d(\d{1,})</matching>
     </ruleset>
 
     <ruleset domain="org.radiocampus">
@@ -6292,18 +7245,19 @@
       <matching>^http(s)?\x3a\x2f\x2fwww\x2ertp\x2ept\x2f(\x2f)?play\x2fitunes\x2f(\d{1,})</matching>
     </ruleset>
 
+    <ruleset domain="pt.sapo">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sapo\x2ept\x2fpodcasting\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2exml</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sapo\x2ept\x2fpodcast\x5fitunes\x2easpx\x3ffid\x3d(\d{1,})</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sapo\x2ept\x2frss\x2fpodcastitunes\x2easpx\x3ffid\x3d(\d{1,})</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sapo\x2ept\x2fpodcast\x5f([a-z0-9\x2d\x5f]{1,})\x2easpx</matching>
+    </ruleset>
+
     <ruleset domain="pt.tsf">
       <matching>^http(s)?\x3a\x2f\x2ffeeds\x2etsf\x2ept\x2f([a-z0-9\x2d\x5f]{1,})</matching>
     </ruleset>
 
     <ruleset domain="pt.uc">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?uc\x2ept\x2fitunesu\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d]{1,})\x2frss(\x2daudio)?\x2exml</matching>
-    </ruleset>
-
-    <ruleset domain="pt.sapo">
-      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sapo\x2ept\x2fpodcasting\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2exml</matching>
-      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sapo\x2ept\x2fpodcast\x5fitunes\x2easpx\x3ffid\x3d(\d{1,})</matching>
-      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?sapo\x2ept\x2frss\x2fpodcastitunes\x2easpx\x3ffid\x3d(\d{1,})</matching>
     </ruleset>
 
   </ruletld>
@@ -6461,6 +7415,10 @@
 
     <ruleset domain="se.khz">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?khz\x2ese\x2f([a-z0-9\x2d\x5f]{1,})</matching>
+    </ruleset>
+
+    <ruleset domain="se.kilskorpen">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?kilskorpen\x2ese\x2findex\x2ephp\x2f([a-z0-9\x2d\x2f\x5f]{1,})</matching>
     </ruleset>
 
     <ruleset domain="se.maranata">
@@ -6784,7 +7742,7 @@
     </ruleset>
 
     <ruleset domain="uk.co.wired">
-      <matching>^http(s)\x3a\x2f\x2f([a-z0-9\x2e]{1,})?wired\x2eco\x2euk\x2frss\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})</matching>
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2e]{1,})?wired\x2eco\x2euk\x2frss\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})</matching>
     </ruleset>
 
     <ruleset domain="uk.co.wizardradio">
@@ -6828,6 +7786,10 @@
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?hopecc\x2eus\x2fmediafiles\x2f([a-z0-9\x2d\x5f]{1,})\x2exml\x2f</matching>
     </ruleset>
 
+    <ruleset domain="us.livinghopecc">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?livinghopecc\x2eus\x2fcrossover\x2fpodcast\x2exml\x2e([a-z0-9]{1,})</matching>
+    </ruleset>
+
     <ruleset domain="us.radiomaria">
       <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?radiomaria\x2eus\x2fcategory\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f</matching>
     </ruleset>
@@ -6841,6 +7803,14 @@
   <ruletld tld="va">
     <ruleset domain="va.vaticannews">
       <matching>^http(s)?\x3a\x2f\x2fwww\x2evaticannews\x2eva\x2f([a-z]{2,3})\x2fpodcast\x2f([a-z0-9\x2d\x2e\x2f\x5f]{1,})\x2exml</matching>
+    </ruleset>
+
+  </ruletld>
+
+  <ruletld tld="wales">
+
+    <ruleset domain="wales.nationradio">
+      <matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nationradio\x2ewales\x2fpodcasts\x2f([a-z0-9\x2d\x5f]{1,})\x2f</matching>
     </ruleset>
 
   </ruletld>
@@ -6875,7 +7845,7 @@
     </ruleset>
 
     <ruleset domain="zone.jupiter">
-      <matching>^http(s)\x3a\x2ffeed\x2ejupiter\x2ezone\x2f([a-z0-9\x25\x2d\x5f]{1,})</matching>
+      <matching>^http(s)?\x3a\x2ffeed\x2ejupiter\x2ezone\x2f([a-z0-9\x25\x2d\x5f]{1,})</matching>
     </ruleset>
 
   </ruletld>
