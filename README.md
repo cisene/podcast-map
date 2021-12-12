@@ -11,6 +11,8 @@ Feel free to contribute. Feel free to use -- but please reference source.
 
 Updates:
 
+  2021-12-12: 55662 patterns, new additions
+
   2021-06-07: Added more patterns, structure to make searching for needle, iterate as few rules as possible
 
   2021-02-27: Added more patterns - many new as index expands in all directions.
