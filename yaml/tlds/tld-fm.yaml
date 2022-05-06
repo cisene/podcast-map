@@ -1,0 +1,164 @@
+rulesets:
+  fm.1075:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?1075\x2efm\x2fmchxml\x2f\x3fcat\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?1075\x2efm\x2fmchxml\x2f\x3fprog\x3d(\d{1,})$
+  fm.4tracce:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?4tracce\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2f\x5f]{1,})$
+  fm.activate:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?activate\x2efm\x2fapi\x2frss\x2fpodcast\x2f(\d{1,})$
+  fm.adp:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?adp\x2efm\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  fm.alaan:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?alaan\x2efm\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  fm.anchor:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?anchor\x2efm\x2fs\x2f([a-f0-9]{1,})\x2fpodcast\x2frss$
+  fm.aristocrats:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?aristocrats\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  fm.backtracks:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?backtracks\x2efm/
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?backtracks\x2efm\x2ffeeds\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?backtracks\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+  fm.bcast:
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ebcast\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  fm.bff:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bff\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
+  fm.bgn:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bgn\x2efm\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  fm.blendcast:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?blendcast\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
+  fm.briefs:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?briefs\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  fm.caproni:
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ecaproni\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  fm.captivate:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?captivate\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ecaptivate\x2efm\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ecaptivate\x2efm\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f$
+  fm.castbox:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?castbox\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?castbox\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  fm.cause-commune:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cause\x2dcommune\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cause\x2dcommune\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cause\x2dcommune\x2efm\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  fm.checkpod:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?checkpod\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?checkpod\x2efm\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  fm.dar:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dar\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+  fm.delamar:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?delamar\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?delamar\x2efm\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?delamar\x2efm\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  fm.digitalia:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?digitalia\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?digitalia\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+  fm.droplet:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?droplet\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
+  fm.edufunk:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?edufunk\x2efm\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2fpodcast\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?edufunk\x2efm\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?edufunk\x2efm\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  fm.emilcar:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?emilcar\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2eemilcar\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  fm.fans:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fans\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fans\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  fm.fiat:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fiat\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+  fm.fireside:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fireside\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fireside\x2efm\x2frss$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2efireside\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss$
+  fm.fred:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fred\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fpodcast$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fred\x2efm\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2fpodcast\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fred\x2efm\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  fm.giornaleradio:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?giornaleradio\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  fm.hakawati:
+    matching:
+    - ^http(s)?\x3a\x2f\x2fhakawati\x2efm\x2fchannels\x2frss\x2f(\d{1,})$
+  fm.halftone:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?halftone\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?halftone\x2efm\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  fm.helloaudio:
+    matching: []
+  fm.jewishpodcasts:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?jewishpodcasts\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+  fm.kboo:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kboo\x2efm\x2fprogram\x2f([a-z0-9\x2d\x5f]{1,})\x2fpodcast$
+  fm.letscast:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letscast\x2efm\x2fpodcasts\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
+  fm.messy:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?messy\x2efm\x2fapi\x2fshow\x2f(\d{1,})\x2frss$
+  fm.nrjaudio:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nrjaudio\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  fm.qingting:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?qingting\x2efm/
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?qingting\x2efm\x2fpodcast\x2fchannels\x2f(\d{1,})$
+  fm.radiobus:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiobus\x2efm\x2fpodcast\x2f(\d{1,})\x2frss$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?radiobus\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+  fm.radiovalencia:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovalencia\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovalencia\x2efm\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?radiovalencia\x2efm\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+  fm.reason:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?reason\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  fm.relay:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?relay\x2efm\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?relay\x2efm\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?relay\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+  fm.springcast:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?springcast\x2efm/
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?springcast\x2efm\x2fpodcast\x2dxml\x2f(\d{1,})(\x2f)?$
+  fm.xray:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?xray\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+  fm.zencast:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?zencast\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2fmedia\x2ezencast\x2efm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss$

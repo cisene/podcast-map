@@ -1,0 +1,28 @@
+rulesets:
+  jp.ac.kyushu-u:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kyushu\x2du\x2eac\x2ejp\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
+  jp.ac.nii:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nii\x2eac\x2ejp\x2fitunesu\x2f([a-z0-9\x2d\x2e\x2f\x5f]{1,})\x2e(xml|rss)$
+  jp.or.nhk:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nhk\x2eor\x2ejp\x2f([a-z]{2})\x2fpodcast\x2frss\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nhk\x2eor\x2ejp\x2flesson\x2f([a-z]{2})\x2frss\x2fpodcast\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nhk\x2eor\x2ejp\x2flesson\x2fcommon\x2frss\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nhk\x2eor\x2ejp\x2fs\x2dmedia\x2fnews\x2fpodcast\x2flist\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nhk\x2eor\x2ejp\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z]{2})\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2exml$
+  jp.radiocafe:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?radiocafe\x2ejp\x2f(\d{1,})\x2fxml\x2ephp\x3fblog\x5fid\x3d(\d{1,})\x26t\x3depisodes\x26podcast\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?radiocafe\x2ejp\x2f(\d{1,})\x2fxml\x2ephp\x3fblog\x5fid\x3d(\d{1,})\x26podcast\x3d(\d{1,})\x26t\x3depisodes$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiocafe\x2ejp/
+  jp.radionikkei:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radionikkei\x2ejp\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  jp.robotstart:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?robotstart\x2ejp\x2fapi\x2fv1\x2ffeeds\x2f([a-f0-9]{1,})\x2fget\x2dfeeds\x2fpodcast$
+  jp.waseda:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?waseda\x2ejp\x2fncontents\x2fopen\x2fitunes\x5fu\x2fnew\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$

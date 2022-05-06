@@ -1,0 +1,31 @@
+rulesets:
+  uk.ac.gla:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?gla\x2eac\x2euk/
+  uk.ac.lse:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lse\x2eac\x2euk\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2fpodcast\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lse\x2eac\x2euk\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lse\x2eac\x2euk/
+  uk.ac.nottingham:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nottingham\x2eac\x2euk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?nottingham\x2eac\x2euk\x2falbums\x2f(\d{1,})\x2erss$
+  uk.ac.ucl:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?ucl\x2eac\x2euk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ucl\x2eac\x2euk/
+  uk.ac.warwick:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?warwick\x2eac\x2euk/
+  uk.co.absoluteradio:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?absoluteradio\x2eco\x2euk\x2fcore\x2fpodcasts\x2frss\x2ephp\x3fname\x3d([a-z0-9\x21-\x2e\x5f]{1,})$
+  uk.co.bbc:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?bbc\x2eco\x2euk\x2fstorylines\x2f(\d{1,})\x2fscenes\x2fintro\x2erss$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?bbc\x2eco\x2euk\x2fprogrammes\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fepisodes\x2fdownloads\x2erss$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bbc\x2eco\x2euk/
+  uk.co.fourble:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?fourble\x2eco\x2euk\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2erss$
