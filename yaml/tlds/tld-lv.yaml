@@ -1,8 +1,22 @@
 rulesets:
+  lv.lkr:
+    matching: []
   lv.lsm:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lsm\x2elv/
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lsm\x2elv\x2f\x3fac\x3d([a-z0-9\x25\x2d\x5f]{1,})(.*)$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lsm\x2elv\x2f\x3fid\x3d(\d{1,})(.*)$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lsm\x2elv\x2f\x3fs\x3d(\d{1,})(.*)$
-    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lsm\x2elv\x2f\x3fac\x3d([a-z0-9\x25\x2d\x5f]{1,})(.*)$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?lsm\x2elv\x2frss\x2f\x3flang\x3d([a-z0-9\x25\x2d\x5f]{1,})(.*)$
-    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lsm\x2elv/
+  lv.priekavests:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?priekavests\x2elv\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
+  lv.radar:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radar\x2elv\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radar\x2elv\x2ftaxonomy\x2fterm\x2f(\d{1,})\x2f(\d{1,})\x2ffeed$
+  lv.theeasternborder:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?theeasternborder\x2elv\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?theeasternborder\x2elv\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?theeasternborder\x2elv\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$

@@ -1,9 +1,20 @@
 rulesets:
+  hk.com.church:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?church\x2ecom\x2ehk\x2facms\x2ffeed\x2easp\x3ffeed\x3dpodcast\x26field\x3dauthor\x26site\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26text\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26top\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?church\x2ecom\x2ehk\x2facms\x2ffeed\x2easp\x3ffeed\x3dpodcast\x26field\x3dpublisher\x26site\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26text\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26top\x3d(\d{1,})$
+  hk.com.staradio:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?staradio\x2ecom\x2ehk\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed\x2fpodcast$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?staradio\x2ecom\x2ehk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+  hk.edu.cuhk:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cuhk\x2eedu\x2ehk\x2fmedia\x2fitunesu\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2exml$
   hk.myradio:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?myradio\x2ehk/
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?myradio\x2ehk\x2f\x3ffeed\x3dpodcast$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?myradio\x2ehk\x2f\x3ffeed\x3dpodcast\x26cat\x3d(\d{1,})$
-    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?myradio\x2ehk/
   hk.org.rthk:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?rthk\x2eorg\x2ehk\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
@@ -12,3 +23,15 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?passiontimes\x2ehk\x2fpodcast\x2ephp\x3fview\x3d([a-z0-9\x25\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?passiontimes\x2ehk\x2fvideopodcast\x2ephp\x3fview\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  hk.podcast:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podcast\x2ehk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podcast\x2ehk\x2ffeed\x2f$
+  hk.rthk:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rthk\x2ehk\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  hk.sportsyeah:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sportsyeah\x2ehk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sportsyeah\x2ehk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2f\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sportsyeah\x2ehk\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
