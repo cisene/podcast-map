@@ -296,6 +296,7 @@ rulesets:
   net.coffeeandcrumbs:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?coffeeandcrumbs\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ecoffeeandcrumbs\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   net.compendion:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?compendion\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fmp3\x2f$
@@ -1231,7 +1232,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ronniebrown\x2enet\x2findex\x2ephp\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   net.rucast:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2erucast\x2enet\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   net.ruthenians:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ruthenians\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fpodcast$

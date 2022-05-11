@@ -1802,6 +1802,8 @@ rulesets:
   com.bmj:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bmj\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ebmj\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcasts$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ebmj\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   com.bmoviemania:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bmoviemania\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
@@ -2653,7 +2655,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?churchlabapp\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
   com.churchofthehighlands:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2echurchofthehighlands\x2ecom\x2fmedia\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2faudio$
   com.churchsocial:
     matching: []
   com.churchunlimited:
@@ -3974,7 +3977,8 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?drivegreentractors\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?drivegreentractors\x2ecom\x2ffeed\x2f$
   com.drivingsports:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2edrivingsports\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   com.drjimtaylor:
     matching: []
   com.drjohnday:
@@ -4329,7 +4333,8 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?engageselling\x2ecom\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?engageselling\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   com.english-slang:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2eenglish\x2dslang\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.englishteacherjohn:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?englishteacherjohn\x2ecom\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
@@ -5064,6 +5069,7 @@ rulesets:
   com.foxnewsradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?foxnewsradio\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2efoxnewsradio\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.foxy99:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?foxy99\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -5071,6 +5077,7 @@ rulesets:
   com.frackulous:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?frackulous\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2efrackulous\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.francaisauthentique:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?francaisauthentique\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -6808,7 +6815,8 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?iskconleaders\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?iskconleaders\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
   com.islamexplained:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2fpodcasts\x2eislamexplained\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2easpx$
   com.islamhouse:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?islamhouse\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
@@ -6898,6 +6906,7 @@ rulesets:
   com.jacksonville:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?jacksonville\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ejacksonville\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.jahworksradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?jahworksradio\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -9497,6 +9506,7 @@ rulesets:
   com.nature:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nature\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2f\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2enature\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.naturopathicearth:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?naturopathicearth\x2ecom\x2ffeed\x2f$
@@ -9742,7 +9752,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nightsatthesoundtable\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
   com.nightvalepresents:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2enightvalepresents\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.nihon-nyusu:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nihon\x2dnyusu\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -10249,6 +10260,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?p53studio\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?p53studio\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2ffeed\x2ep53studio\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   com.pacesmith:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?pacesmith\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -11464,6 +11476,7 @@ rulesets:
   com.radiopublic:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiopublic\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2eradiopublic\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.radiorodja:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiorodja\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -11680,9 +11693,11 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?realitybreached\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?realitybreached\x2ecom\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   com.realitycarp:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2fpodcast\x2erealitycarp\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   com.realitysb:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2fpodcast\x2erealitysb\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   com.reallifelanguage:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?reallifelanguage\x2ecom\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2fcategory\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed\x2f$
@@ -12172,6 +12187,7 @@ rulesets:
   com.rundfunkanstalt:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rundfunkanstalt\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2erundfunkanstalt\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.runeweek:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?runeweek\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\5\x2d\x5f]{1,})\x2ffeed$
@@ -12457,6 +12473,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scmp\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\5\x2d\x5f]{1,})\x2ffeed$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scmp\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x5frss\x2exml$
+    - ^http(s)?\x3a\x2f\x2fcms\x2escmp\x2ecom\x2frss\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f(\d{1,})\x2fmedia\x5frss\x2exml\x3farticle\x2dtype\x3d(\d{1,})(\x26([a-z]{1,}))?$
   com.scormey:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scormey\x2ecom\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
@@ -12669,9 +12686,11 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?shareyourbuzz\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3fformat\x3drss$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?shareyourbuzz\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
   com.sharkchild:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2esharkchild\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.sharp-stream:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2esharp\x2dstream\x2ecom\x2fcontent\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2dfiles\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   com.shazamcomicshop:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?shazamcomicshop\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3fformat\x3drss$
@@ -14181,6 +14200,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?theeternities\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?theeternities\x2ecom\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2etheeternities\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.theexchangeshow:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?theexchangeshow\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
@@ -14998,7 +15018,8 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?toshiyukinamai\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?toshiyukinamai\x2ecom\x2ffeed\x2f$
   com.totallyradio:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2etotallyradio\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2fepisodes\x2erss$
   com.touchandchange:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?touchandchange\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -15390,7 +15411,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?updocmedia\x2ecom\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   com.upgrd:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2eupgrd\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.upliftingutopia:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?upliftingutopia\x2ecom\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
@@ -15724,6 +15746,7 @@ rulesets:
   com.voicesdivine:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?voicesdivine\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2evoicesdivine\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.vokalnow:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?vokalnow\x2ecom\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
@@ -16324,7 +16347,8 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?wror\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?wror\x2ecom\x2f\x3ffeed\x3dpodcast\x26podcast\x5fseries\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   com.wsbradio:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ewsbradio\x2ecom\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
   com.wsbtradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?wsbtradio\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$

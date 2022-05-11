@@ -34,7 +34,8 @@ rulesets:
   io.dropwave:
     matching: []
   io.fluro:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2fapi\x2efluro\x2eio\x2fcontent\x2f\x5fquery\x2f([a-f0-9]{24})\x2ffile\x2ffeed\x2e(rss|xml)\x3f(.*)$
   io.frank:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?frank\x2eio\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
