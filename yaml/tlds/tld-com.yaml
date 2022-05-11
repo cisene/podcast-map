@@ -6600,6 +6600,7 @@ rulesets:
   com.indiatimes:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?indiatimes\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?indiatimes\x2ecom\x2fpodcast\x2f(\d{1,})\x2ecms\x3fltype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   com.indieforbunnies:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?indieforbunnies\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -9346,7 +9347,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?muslimfederationonline\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   com.my-ecoach:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?my\x2decoach\x2ecom\x2fpodcast\x2ephp\x3frid\x3d(\d{1,})$
   com.my98music:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?my98music\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -10283,6 +10285,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?panceaudiopro\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
   com.pandamixshow:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?pandamixshow\x2ecom\x2fpodcast\x2dfeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmix\x2fpodcast\x2exml\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?pandamixshow\x2ecom\x2fpodcast\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2exml$
   com.panicattackrecovery:
     matching:
@@ -13094,7 +13097,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?soundtier\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
   com.soundupnow:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?soundupnow\x2ecom\x2fpodcast\x2dfeeds\x2f\x3freference\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   com.sourcewadio:
     matching: []
   com.souspressionpunk:
@@ -13585,7 +13589,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sunny1015\x2ecom\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sunny1015\x2ecom\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   com.sunsetcast:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sunsetcast\x2ecom\x2fpodcast\x2easp\x3fcfilnamex\x3d([a-z0-9\x25\x2d\x5f]{1,})\x2exml\x26cuseridx\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26ihpodcodex\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sunsetcast\x2ecom\x2fpodcast\x2easp\x3fcuseridx\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26ihpodcodex\x3d(\d{1,})\x26cfilnamex\x3d([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   com.suonarechitarra:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?suonarechitarra\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -13959,7 +13965,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?testallthings\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   com.tested:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tested\x2ecom\x2fpodcast\x2dxml\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   com.texags:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?texags\x2ecom\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
@@ -15640,6 +15647,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?voandebele\x2ecom\x2fpodcast\x2f\x3fcount\x3d(\d{1,})\x26zoneId\x3d(\d{1,})$
   com.voanews:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?voanews\x2ecom\x2fpodcast\x2f(\d{1,})\x2flisten$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?voanews\x2ecom\x2fpodcast\x2f\x3fcount\x3d(\d{1,})\x26zoneId\x3d(\d{1,})$
   com.voanews.amharic:
     matching:
@@ -15784,6 +15792,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?warpradio\x2ecom\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?warpradio\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?warpradio\x2ecom\x2fpodcast\x2easp\x3fshowid\x3d(\d{1,})$
   com.warriortrading:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?warriortrading\x2ecom\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
