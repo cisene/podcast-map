@@ -2,6 +2,7 @@ rulesets:
   io.airad:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?airad\x2eio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
+    - ^http(s)?\x3a\x2f\x2fairad\x2eio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3ftag\x3dpodcast\x26format\x3drss$
   io.alphavoice:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?alphavoice\x2eio\x2fshow\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
@@ -114,7 +115,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sonarbird\x2eio\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
   io.spkt:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2fspkt\x2eio\x2ff\x2f(\d{1,})\x2f(\d{1,})\x2fread\x5f([a-f0-9]{32})$
   io.typlog:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?typlog\x2eio\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$

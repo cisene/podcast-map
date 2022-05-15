@@ -28,12 +28,16 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hirtv\x2ehu\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2f\x5f]{1,})$
   hu.index:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?index\x2ehu\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2frss\x2f(podcast|default)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?index\x2ehu\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2f\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?index\x2ehu\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2fkateg\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?index\x2ehu\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2f$
   hu.infostart:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?infostart\x2ehu\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?infostart\x2ehu\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?infostart\x2ehu\x2fassets\x2fstatic\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x5frss\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?infostart\x2ehu\x2fmagazin\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2f$
   hu.irodalmiradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?irodalmiradio\x2ehu\x2fwp\x2findex\x2ephp\x2fauthor\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -52,7 +56,8 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kozeletikerekasztal\x2ehu\x2f\x3fformat\x3draw\x26feedname\x3d(\d{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kozeletikerekasztal\x2ehu\x2fcomponent\x2fpodcastmanager\x2f\x3fformat\x3draw\x26feedname\x3d(\d{1,})$
   hu.latszoter:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?latszoter\x2ehu\x2fradio\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   hu.metiheteor:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?metiheteor\x2ehu\x2f\x3ffeed\x3dpodcast$

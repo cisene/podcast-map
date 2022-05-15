@@ -1,20 +1,26 @@
 rulesets:
   is.framhaldsskoli:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?framhaldsskoli\x2eis\x2fsites\x2fdefault\x2ffiles\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2faudiobooks\x2fpodcasts\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   is.hlusta:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hlusta\x2eis\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hlusta\x2eis\x2fsites\x2fdefault\x2ffiles\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmedia\x2fpodcasts\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   is.mbl:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mbl\x2eis\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mbl\x2eis\x2fmm\x2frss\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   is.ruv:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ruv\x2eis\x2frss\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   is.skolavefurinn:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?skolavefurinn\x2eis\x2fsites\x2fdefault\x2ffiles\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?skolavefurinn\x2eis\x2fsystem\x2ffiles\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2exml$
   is.stundin:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?stundin\x2eis\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?stundin\x2eis\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
   is.visir:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?visir\x2eis\x2futvarp\x2fs\x2f(\d{1,})$

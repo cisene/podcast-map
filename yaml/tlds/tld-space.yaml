@@ -1,6 +1,7 @@
 rulesets:
   space.afgy:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?afgy\x2espace\x2fhosting\x2fusr\x2f(\d{1,})\x2findex\x2exml$
   space.appgame:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?appgame\x2espace/
@@ -62,9 +63,11 @@ rulesets:
   space.uber:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uber\x2espace\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uber\x2espace\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2ffeed\x2f(m4a|sammelfeed|mpeg\x2d4\x2dall)\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uber\x2espace\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fmp3\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uber\x2espace\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fmp3\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uber\x2espace\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uber\x2espace\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   space.xyzfm:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeed\x2exyzfm\x2espace\x2f([a-z0-9\x25\x2d\x5f]{1,})$

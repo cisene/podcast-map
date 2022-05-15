@@ -84,14 +84,18 @@ rulesets:
   ru.mayak-spaseniya:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mayak\x2dspaseniya\x2eru\x2f\x3ffeed\x3drss2\x26wpfc\x5fpreacher\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mayak\x2dspaseniya\x2eru\x2f\x3ffeed\x3drss2\x26wpfc\x5fsermon\x5ftopics\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   ru.morzefm:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?morzefm\x2eru\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fmp3\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?morzefm\x2eru\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   ru.musicaldecadence:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?musicaldecadence\x2eru\x2frss\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3fid\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?musicaldecadence\x2eru\x2frss\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2findex.php$
   ru.muzcentrum:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?muzcentrum\x2eru\x2fcomponents\x2fcom\x5fmuzplaylist\x2fcache\x2frss\x2f(\d{1,})$
   ru.narod:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?narod\x2eru\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
@@ -117,7 +121,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?oshohealing\x2eru\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?oshohealing\x2eru\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   ru.peremeny:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?peremeny\x2eru\x2fbook\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fcategory\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2ffeed$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?peremeny\x2eru\x2fbooks\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2ffeed$
   ru.pesnislushat:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?pesnislushat\x2eru\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -157,6 +163,7 @@ rulesets:
   ru.radiovera:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovera\x2eru\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovera\x2eru\x2fitunes\x5fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   ru.radiovos:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovos\x2eru/
@@ -168,12 +175,14 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?raplab\x2eru\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?raplab\x2eru\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\5\x2d\x5f]{1,})\x2ffeed$
   ru.redbarn:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?redbarn\x2eru\x2ffeed\x2ffeed\x2dpodcasts\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   ru.ria:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ria\x2eru\x2fexport\x2fitunes\x2frss2\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   ru.rutv:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rutv\x2eru\x2frss\x2fbrand\x2fid\x2f(\d{1,})\x2frsstype\x2fitunes$
   ru.s3mts:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?s3mts\x2eru/
@@ -186,6 +195,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?smx\x2eru\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
   ru.stopgame:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rss\x2estopgame\x2eru\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?stopgame\x2eru\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
   ru.storycast:
     matching:

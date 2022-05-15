@@ -637,6 +637,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?camara\x2eleg\x2ebr\x2fradio\x2f(\d{1,})\x2d([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   br.leg.senado:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?senado\x2eleg\x2ebr\x2fradio\x2f(\d{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2fpodcast\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?senado\x2eleg\x2ebr\x2fradio\x2f(\d{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2exml$
   br.net.biblecast:
     matching:
@@ -672,6 +673,7 @@ rulesets:
   br.org.institutomillenium:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?institutomillenium\x2eorg\x2ebr\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?institutomillenium\x2eorg\x2ebr\x2ffeed\x2fpodcast\x2f\x3fformat\x3d([a-z0-9\x25\x2d\x5f]{1,})(\x26feedname\x3d(\d{1,}))?$
   br.org.peloamordedeus:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?peloamordedeus\x2eorg\x2ebr\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$

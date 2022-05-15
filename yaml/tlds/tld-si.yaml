@@ -14,7 +14,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?drzavljand\x2esi\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?drzavljand\x2esi\x2ffeed\x2f$
   si.meteo:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?meteo\x2esi\x2fuploads\x2fprobase\x2fwww\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmedia\x2fsl\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?meteo\x2esi\x2fuploads\x2fprobase\x2fwww\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmedia\x2fsl\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
   si.metinalista:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?metinalista\x2esi\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
