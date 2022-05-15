@@ -107,6 +107,10 @@ rulesets:
   jp.co.rokinawa:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rokinawa\x2eco\x2ejp\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2farchives\x2fcategory\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed$
+  jp.co.sankakuyama:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sankakuyama\x2eco\x2ejp\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sankakuyama\x2eco\x2ejp\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   jp.co.sbc21:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sbc21\x2eco\x2ejp\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\5\x2d\x5f]{1,})\x2ffeed$
@@ -322,6 +326,10 @@ rulesets:
   jp.waseda:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e]{1,})?waseda\x2ejp\x2fncontents\x2fopen\x2fitunes\x5fu\x2fnew\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  jp.webchapel:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?webchapel\x2ejp\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?webchapel\x2ejp\x2ffeed\x2f$
   jp.xsrv:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?xsrv\x2ejp\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
