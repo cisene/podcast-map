@@ -2,7 +2,8 @@ rulesets:
   club.fket:
     matching: []
   club.kupl:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kupl\x2eclub\x2fhosting\x2fusr\x2f(\d{1,})\x2findex\x2exml$
   club.makerscollective:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?makerscollective\x2eclub\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
