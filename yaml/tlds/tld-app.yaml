@@ -6,6 +6,9 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?innerjoy\x2eapp\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?innerjoy\x2eapp\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  app.intro:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?intro\x2eapp\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
   app.jamit:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?jamit\x2eapp\x2ffeed\x2faudio\x2f([a-f0-9]{24})\x2frss$
@@ -18,6 +21,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?netlify\x2eapp\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?netlify\x2eapp\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?netlify\x2eapp\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  app.oxinchannel:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?oxinchannel\x2eapp\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
   app.rsshub:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rsshub\x2eapp\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
@@ -31,6 +37,11 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tayl\x2eapp\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2fx\x2etayl\x2eapp\x2fp\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})$
+  app.tmvs:
+    matching: []
   app.vercel:
     matching:
     - ^http(s)?\x3a\x2f\x2fspotify\x2dpodcast\x2dfeed\x2evercel\x2eapp\x2f([a-z0-9\x2d\x5f]{1,})$
+  app.web:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?web\x2eapp\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$

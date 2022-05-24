@@ -5,6 +5,13 @@ rulesets:
   audio.bikefm:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bikefm\x2eaudio\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  audio.cabbagesandkings:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cabbagesandkings\x2eaudio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cabbagesandkings\x2eaudio\x2f\x3fformat\x3drss$
+  audio.flightcast:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?flightcast\x2eaudio\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   audio.knit:
     matching:
     - ^http(s)?\x3a\x2f\x2ffeeds\x2eknit\x2eaudio\x2fapp\x2dsearch\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fall\x2f(\d{1,})\x2f(\d{1,})\x2f$
@@ -13,6 +20,22 @@ rulesets:
   audio.multiskript:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?multiskript\x2eaudio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+  audio.notthedestination:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?notthedestination\x2eaudio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?notthedestination\x2eaudio\x2f\x3fformat\x3drss$
   audio.oneloop:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?oneloop\x2eaudio\x2fmedi(a|en)\x2f([a-z0-9]{1,})\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2exml$
+  audio.open:
+    matching: []
+  audio.softskills:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?softskills\x2eaudio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  audio.tealife:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tealife\x2eaudio\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tealife\x2eaudio\x2ffeed\x2f$
+  audio.up:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?up\x2eaudio\x2frss\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$

@@ -1,7 +1,17 @@
 rulesets:
+  zone.ambient:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ambient\x2ezone\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
   zone.chillout:
     matching:
     - ^http(s)?\x3a\x2f\x2fchillout\x2ezone\x2fdata\x2fpodcast\x2ephp\x3fpath\x3d([a-z0-9\x25\x2b\x2d\x2e\x2f\x5f]{1,})$
   zone.jupiter:
     matching:
     - ^http(s)?\x3a\x2f\x2ffeed\x2ejupiter\x2ezone\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  zone.nag:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nag\x2ezone\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nag\x2ezone\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+  zone.patches:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?patches\x2ezone\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
