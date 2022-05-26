@@ -134,6 +134,7 @@ endings:
   - \x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2fitunes\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fscope\x2f(\d{1,})\x2fvariant\x2f(\d{1,})(\x2f)?$
   - \x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2fpodcast\x2daudio$
   - \x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2fpodcast\x2dvideo$
+  - \x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frssfeed\x2frssgen\x2easpx\x3fmoduleid\x3d(\d{1,})\x26tabid\x3d(\d{1,})$
   - \x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fstatic\x2fpodcasts\x2fpodcast\x2erss$
   - \x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fwordpress\x2f\x3ffeed\x3drss2$
   - \x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fxml\x2fitunesu\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
@@ -240,9 +241,13 @@ endings:
   - \x2faudio\x2fuser\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
   - \x2faudiocast\x2easpx$
   - \x2faudiopodcast$
+  - \x2faudiopodcast\x2f$
   - \x2faudiopodcast\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f$
   - \x2faudiopodcast\x2fchannel\x2f(\d{1,})$
   - \x2faudiopodcast\x2fchannel\x2f(\d{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})$
+  - \x2faudiopodcast\x3fpodcast\x5fid\x3d(\d{1,})$
+  - \x2faudiorss\x2f$
+  - \x2faudios\x2fpodcast\x2fpodcast\x2ephp$
   - \x2fauthor\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
   - \x2fauthor\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   - \x2fauthor\x2f(\d{1,})\x2frss\x2f$
@@ -339,28 +344,45 @@ endings:
   - \x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   - \x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3fcat\x3d([a-z0-9\x25\x2d\x5f]{1,})(\x26typ\x3dformat)?$
   - \x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3ftyp\x3dformat\x26cat\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fkey\x3d([a-f0-9]{8,})$
+  - \x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3ftoken\x3d(\d{1,})\x2d([a-f0-9]{32})$
   - \x2ffeed\x2f([a-z0-9\x2d\x5f]{1,})\x2f\x3fprog\x3d(\d{1,})$
   - \x2ffeed\x2f([a-z]{3})\x2f([a-z0-9\x25\x2d\x5f]{1,})$
-  - \x2ffeed\x2f([a-zåäöæøèé0-9\x25\x2b\x2d\x5f]{1,})$
-  - \x2ffeed\x2f([a-zåäöæøèé0-9\x25\x2b\x2d\x5f]{1,})\x23f([a-zåäöæøèé0-9\x25\x2b\x2d\x5f]{1,})$
   - \x2ffeed\x2f(\d{1,})\x2frss$
   - \x2ffeed\x2f(\d{1,})\x2frss\x2f$
   - \x2ffeed\x2f\x3fcat\x3d(\d{1,})$
   - \x2ffeed\x2f\x3fcat\x3d\x2d(\d{1,})$
+  - \x2ffeed\x2f\x3fcat\x3dpodcasts$
+  - \x2ffeed\x2f\x3fcategory\x5fname\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x2f\x3fcategory\x5fname\x3dpodcast$
   - \x2ffeed\x2f\x3fcategoryname\x3dpodcast$
+  - \x2ffeed\x2f\x3fetrprivate\x3d([a-f0-9]{80})$
+  - \x2ffeed\x2f\x3fformat\x3daudio$
+  - \x2ffeed\x2f\x3fformat\x3dmp3$
+  - \x2ffeed\x2f\x3fformat\x3dvideo$
   - \x2ffeed\x2f\x3fid\x3d(\d{1,})\x26post\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2ffeed\x2f\x3fkategorie\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2ffeed\x2f\x3flang\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2ffeed\x2f\x3fpodcast\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x2f\x3fpodcasts\x3d([a-z0-9\5\x2d\x5f]{1,})$
   - \x2ffeed\x2f\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x2f\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26id\x3d(\d{1,})$
   - \x2ffeed\x2f\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26wpfc\x5fservice\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x2f\x3ftag\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2ffeed\x2f\x3fx\x3d(\d{1,})$
   - \x2ffeed\x2faudio\x2f([a-f0-9]{24})\x2frss$
   - \x2ffeed\x2faudio\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2ffeed\x2fcast\x2fmp3$
+  - \x2ffeed\x2fcast\x2fogg$
+  - \x2ffeed\x2femission\x2f(\d{1,})$
+  - \x2ffeed\x2fgoogle\x2dpodcasts\x2f([a-z]{2})\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2ffeed\x2findex\x2e(\d{1,})\x2erss$
   - \x2ffeed\x2fitunes\x2f\x3fprog\x3d(\d{1,})$
   - \x2ffeed\x2fitunes\x2findex\x2ephp\x3fprog\x3d(\d{1,})$
+  - \x2ffeed\x2fitunes\x3fmt\x3d(\d{1,})\x26ls\x3d(\d{1,})$
   - \x2ffeed\x2fpodcast(\x3fdoing\x5fwp\x5fcron\x3d([0-9\x2e]{1,}))?$
+  - \x2ffeed\x2fpodcast\x2dfeed\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2ffeed\x2fpodcast\x2ephp\x3fwhich\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x2fpodcast\x2ephp\x3fwhich\x3d(\d{1,})$
   - \x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
@@ -368,6 +390,7 @@ endings:
   - \x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3fv\x3d([a-f0-9]{12})$
   - \x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
   - \x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2erss$
+  - \x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss$
   - \x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fcb\x3d(\d{1,})$
   - \x2ffeed\x2fpodcast\x2f(hd|sd)\x2f([a-f0-9\x2d]{36})\x2exml$
   - \x2ffeed\x2fpodcast\x2f\x3fbypass$
@@ -377,10 +400,21 @@ endings:
   - \x2ffeed\x2fpodcast\x2f\x3finf\x5fcontact\x5fkey\x3d([a-f0-9]{64})$
   - \x2ffeed\x2fpodcast\x2f\x3fitunes$
   - \x2ffeed\x2fpodcast\x2f\x3fmt\x3d(\d{1,})\x26ls\x3d(\d{1,})$
+  - \x2ffeed\x2fpodcast\x2f\x3fpid\x3d(\d{1,})$
   - \x2ffeed\x2fpodcast\x2f\x3fpodcast$
   - \x2ffeed\x2fpodcast\x2f\x3fpodcast\x5fseries\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x2fpodcast\x2f\x3fprograma\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26showid\x3d(\d{1,})$
+  - \x2ffeed\x2fpodcast\x2f\x3fredaktion\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2ffeed\x2fpodcast\x2f\x3fv\x3d([a-f0-9]{12,})$
+  - \x2ffeed\x2fpodcast\x2findex\x2exml\x3fformat\x3dpodcast$
+  - \x2ffeed\x2fpodcast\x3fcat\x3d(\d{1,})$
+  - \x2ffeed\x2fpodcast\x3fformat\x3draw\x26feedname\x3d(\d{1,})$
+  - \x2ffeed\x2fpodcast\x3fmc\x5fcid\x3d([a-f0-9]{10})\x26mc\x5feid\x3d([a-f0-9]{10})$
   - \x2ffeed\x2fpodcast\x3fpodcast$
+  - \x2ffeed\x2fpodcast\x3fprograma\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26showid\x3d(\d{1,})$
+  - \x2ffeed\x2fpodcast\x3frubr\x3d(\d{1,})$
+  - \x2ffeed\x2fpodcast\x3ftoken\x3d(\d{1,})\x2d([a-f0-9]{32})$
+  - \x2ffeed\x2fpodcast\x3fver\x3d(\d{1,})$
   - \x2ffeed\x2fprogram\x2f([a-f0-9]{12})\x2f$
   - \x2ffeed\x2frss\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x2frssmesh\x2ephp\x3fconfigfile\x3d([a-z0-9\x25\x2b\x2d\x2e\x5f]{1,})$
@@ -391,6 +425,7 @@ endings:
   - \x2ffeed\x2fsubscribe\x2f([a-z]{2})\x2ftaxonomy\x2fterm\x2fall\x2faudio\x2drss\x2exml$
   - \x2ffeed\x2fxml\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2ffeed\x3fformat\x3dxml$
+  - \x2ffeed\x3fid\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26podcast\x5fchannel\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeed\x3fq\x3d([a-z0-9\x25\x2b\x2d\x5f]{1,})$
@@ -414,6 +449,7 @@ endings:
   - \x2ffeeds\x2fcast\x2dogg\x2f$
   - \x2ffeeds\x2fcast\x2dopus\x2f$
   - \x2ffeeds\x2fcategory\x2f([a-z]{1})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  - \x2ffeeds\x2fitunes\x2f$
   - \x2ffeeds\x2flibrary\x2f([a-z]{1})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2ffeeds\x2fpodcast\x2ephp\x3fcid\x3d(\d{1,})$
   - \x2ffeeds\x2fpodcasts\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
@@ -427,12 +463,15 @@ endings:
   - \x2fgenerateurrss\x2ephp\x3fchaine\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fgenerateurrss\x2ephp\x3fselection\x3d(\d{1,})$
   - \x2fgetchannelfeed\x2eashx\x3fchannelid\x3d(\d{1,})\x26campusid\x3d(\d{1,})\x26templateid\x3d(\d{1,})$
+  - \x2fgetchannelfeed\x2eashx\x3fchannelid\x3d(\d{1,})\x26count\x3d(\d{1,})$
   - \x2fgetchannelfeed\x2eashx\x3fchannelid\x3d(\d{1,})\x26count\x3d(\d{1,})\x26templateid\x3d(\d{1,})$
   - \x2fgetchannelfeed\x2eashx\x3fchannelid\x3d(\d{1,})\x26templateid\x3d(\d{1,})\x26count\x3d(\d{1,})$
   - \x2fgetfeed\x2eashx\x3fid\x3d(\d{1,})$
   - \x2fgetfeed\x2eashx\x3fid\x3d(\d{1,})\x26list\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fhome\x2findex\x2ephp\x2fcomponent\x2fpodcastmanager\x2f\x3fformat\x3draw\x26feedname\x3d(\d{1,})$
   - \x2fhome\x2fpodcasts\x2exml\x3fpodcast\x5fid\x3d(\d{1,})$
+  - \x2findex20\x2erdf$
+  - \x2findex\x2eirss$
   - \x2findex\x2ephp\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   - \x2findex\x2ephp\x2fcomponent\x2fpodcastmanager\x2f\x3fformat\x3draw\x26feedname\x3d(\d{1,})$
   - \x2findex\x2ephp\x2femission\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
@@ -452,6 +491,7 @@ endings:
   - \x2findex\x2ephp\x3foption\x3dcom\x5fsermonspeaker\x26format\x3draw\x26view\x3dfeed$
   - \x2findex\x2ephp\x3foption\x3dcom\x5fsermonspeaker\x26view\x3dfeed\x26format\x3draw$
   - \x2findex\x2ephp\x3foption\x3dcom\x5fsermonspeaker\x2fformat\x3draw\x26view\x3dfeed$
+  - \x2findex\x2erss20$
   - \x2findex\x2frss\x2fseries\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2fipoint\x2f([a-z0-9\x2d\x5f]{1,})\x2f([0-9]{4})\x2f([a-z0-9\x2d\x5f]{1,})\x2eptlt$
   - \x2fitunes\x2d([a-z0-9\x25\x2d\x5f]{1,})\x2ephp$
@@ -485,6 +525,8 @@ endings:
   - \x2fmedia\x2fvideo\x2fitunesu\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2fmedia\x2fxmlfeed\x2f([a-f0-9]{32})$
   - \x2fmediasite\x2ffileserver\x2fpodcast\x2f([a-f0-9]{34})\x2ffeed\x2exml$
+  - \x2fmessagesaudiorss\x2easpx$
+  - \x2fmessagesvideorss\x2easpx$
   - \x2fmp3\x2f$
   - \x2fondemand\x2fpodcasts\x2f([a-f0-9\x2d]{36})(\x3f([a-z0-9\x2d\x5f]{1,})\x3d([a-z0-9\x25\x2d\x5f]{1,}))?$
   - \x2fpage\x2fpodcast\x2ephp\x3fe\x3d(\d{1,})$
@@ -493,14 +535,19 @@ endings:
   - \x2fplugin\x2ffeeds\x2f([a-z0-9\x25\x2b\x2d\x5f]{1,})$
   - \x2fpodcast$
   - \x2fpodcast\x2dfeed$
+  - \x2fpodcast\x2dfeed\x2ephp$
   - \x2fpodcast\x2dfeed\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fpodcast\x2dfeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmix\x2fpodcast\x2exml\x2f$
+  - \x2fpodcast\x2dfeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2daudio\x2dpodcast$
+  - \x2fpodcast\x2dfeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dvideo\x2dpodcast$
   - \x2fpodcast\x2dfeeds\x2f\x3freference\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fpodcast\x2dxml\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  - \x2fpodcast\x2easp$
   - \x2fpodcast\x2easp\x3fcfilnamex\x3d([a-z0-9\x25\x2d\x5f]{1,})\x2exml\x26cuseridx\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26ihpodcodex\x3d(\d{1,})$
   - \x2fpodcast\x2easp\x3fcuseridx\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26ihpodcodex\x3d(\d{1,})\x26cfilnamex\x3d([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2fpodcast\x2easp\x3fihpodcodex\x3d(\d{1,})\x26mediadatax\x3dmediadata$
   - \x2fpodcast\x2easp\x3fshowid\x3d(\d{1,})$
+  - \x2fpodcast\x2easpx$
   - \x2fpodcast\x2ecfm$
   - \x2fpodcast\x2ecfm\x3fcategory\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fpodcast\x2ejsp\x3fsrsID\x3d(\d{1,})$
@@ -512,9 +559,13 @@ endings:
   - \x2fpodcast\x2ephp\x3frid\x3d(\d{1,})$
   - \x2fpodcast\x2ephp\x3fview\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fpodcast\x2ephp\x3fw\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2fpodcast\x2exml\x3ffbzunique\x3d([a-f0-9\x2d]{36})$
   - \x2fpodcast\x2f$
   - \x2fpodcast\x2f([a-f0-9\x2d]{36})\x2fmrss$
   - \x2fpodcast\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f$
+  - \x2fpodcast\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2ecfm$
+  - \x2fpodcast\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})$
+  - \x2fpodcast\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x3fformat\x3ditunes$
   - \x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ephp$
   - \x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml\x2ffeed\x3dpodcast\x2exml$
@@ -538,11 +589,14 @@ endings:
   - \x2fpodcast\x2f(\d{1,})\x2frss$
   - \x2fpodcast\x2f\x2d([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fpodcast\x2f\x3fcode\x3d(\d{1,})$
+  - \x2fpodcast\x2f\x3fcount\x3d(\d{1,})$
   - \x2fpodcast\x2f\x3fcount\x3d(\d{1,})\x26zoneId\x3d(\d{1,})$
+  - \x2fpodcast\x2f\x3ff\x3dxml$
   - \x2fpodcast\x2f\x3ff\x3dxml\x26channel\x3d(\d{1,})$
   - \x2fpodcast\x2f\x3fid\x3d(\d{1,})$
   - \x2fpodcast\x2f\x3fprogram\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fpodcast\x2f\x3fzoneid\x3d(\d{1,})$
+  - \x2fpodcast\x2faudio\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f$
   - \x2fpodcast\x2fchannels\x2f(\d{1,})$
   - \x2fpodcast\x2ffeed\x2ephp\x3fid\x3d(\d{1,})$
   - \x2fpodcast\x2ffeed\x2exml\x3fnew$
@@ -573,15 +627,20 @@ endings:
   - \x2fpodcast\x3fcategoryID2\x3d(\d{1,})\x26v\x3d(\d{1,})$
   - \x2fpodcast\x3fcategoryID3\x3d(\d{1,})$
   - \x2fpodcast\x3flang\x3d([a-z]{2})$
+  - \x2fpodcast\x5fcategory\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f\x3ffeed\x3dpodcast$
   - \x2fpodcast\x5ffeed\x2ephp\x3fpodcast\x5fid\x3d(\d{1,})$
+  - \x2fpodcast\x5fhandler\x2eashx$
+  - \x2fpodcast\x5fhandler\x2eashx\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2erss$
   - \x2fpodcastfeed$
   - \x2fpodcastfeed\x2f(\d{1,})\x2eashx$
   - \x2fpodcastfeed\x2frss\x2easpx\x3fid\x3d(\d{1,})$
   - \x2fpodcastfeed\x3ffeed\x3dpodcast$
+  - \x2fpodcasthandler\x2eashx$
   - \x2fpodcasting\x2ffeed\x2f\x3fcat\x3d(\d{1,})$
   - \x2fpodcasting\x2fincludes\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2fpodcasting\x2fpodcast\x2ephp$
   - \x2fpodcasting\x2fpodcast\x2ephp\x3fcat\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  - \x2fpodcastmanager\x2ehtml\x3fformat\x3draw\x26feedname\x3d(\d{1,})$
   - \x2fpodcasts\x2dfeed\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fpodcasts\x2ditunes\x2ephp\x3fshow\x3d(\d{1,})(\x2f)?$
   - \x2fpodcasts\x2ephp\x3fsched\x3d([a-z0-9\x25\x2b\x2d\x5f]{1,})$
@@ -649,6 +708,7 @@ endings:
   - \x2fradio\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2frss\x2f$
   - \x2fradio\x2f(\d{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2fpodcast\x2exml$
   - \x2fradio\x2f(\d{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2exml$
+  - \x2fradio\x2fpodcast\x2ephp$
   - \x2fradio\x2fpodcast\x2fid\x2f(\d{1,})$
   - \x2fradio\x2frss\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f$
   - \x2fradio\x2frss\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(\d{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
@@ -657,6 +717,7 @@ endings:
   - \x2fradioshows\x2f(\d{1,})\x2ffeed\x5fitunes\x2exml$
   - \x2fregions\x2f([a-z0-9\x25\x2b\x2c\x2d\x2e\x2f\x5f]{1,})\x2fitunes\x2daudio$
   - \x2fregions\x2f([a-z0-9\x25\x2b\x2c\x2d\x2e\x2f\x5f]{1,})\x2fitunes\x2dvideo$
+  - \x2fresources\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3draw\x26feedname\x3d(\d{1,})$
   - \x2frss$
   - \x2frss\x2dfeed\x2d(\d{1,})$
   - \x2frss\x2dfeed\x2dpodcast\x2ephp\x2fprogram\x2f(\d{1,})$
@@ -721,13 +782,18 @@ endings:
   - \x2fseries\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss\x2f$
   - \x2fseries\x2fmembers\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   - \x2fsermons\x2fbook\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
+  - \x2fsermons\x2ffeed\x3fcatid\x3d(\d{1,})\x26format\x3draw$
+  - \x2fsermons\x2ffeed\x3fformat\x3draw\x26catid\x3d(\d{1,})$
   - \x2fsermons\x2frss\x2ephp\x3fseries\x3d(\d{1,})$
+  - \x2fsermons\x3fa\x3db\x26format\x3drss$
+  - \x2fsermons\x3fformat\x3drss\x26a\x3db$
   - \x2fserver\x5fpodcastrss\x2ephp\x3fshowid\x3d(\d{1,})\x26platform\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fservlet\x2ffeed\x2f([a-z0-9\x25\x2b\x2d\x5f]{1,})$
   - \x2fshow\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
   - \x2fshow\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dmp3\x2f$
   - \x2fshow\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fmp4\x2f$
   - \x2fshow\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fpodcasts\x2f$
+  - \x2fshow\x2f(\d{1,})\x2fepisodes\x2ffeed$
   - \x2fshow\x2f(\d{1,})\x2frss$
   - \x2fshows\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2faudioposts\x2erss$
   - \x2fshows\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -771,6 +837,7 @@ endings:
   - \x2fvideocast\x2easpx$
   - \x2fvideopodcast\x2ephp\x3fview\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2fvod\x2fplaylists\x2f([a-z0-9\x2d\x5f]{1,})\x2f(mobile|quicktime|mp3\x5faudio|ipod)\x2erss$
+  - \x2fwb\x2frss\x2ephp\x3fseries\x3d(\d{1,})$
   - \x2fwebhooks\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2eashx\x2fpodcast\x3fid\x3d(\d{1,})$
   - \x2fwordpress\x2f\x3ffeed\x3drss2\x26author\x3d(\d{1,})$
   - \x2fwordpress\x2f\x3ffeed\x3drss2\x26cat\x3d(\d{1,})$
@@ -784,6 +851,7 @@ endings:
   - \x2fwp\x2dcontent\x2fuploads\x2fpodcasts\x2f([a-z0-9\x25\x2d\x5f]{1,})(\x2exml)?$
   - \x2fwp\x2dfeed\x2daudio\x2dvideo\x2ephp$
   - \x2fwp\x2dfeed\x2daudio\x2ephp$
+  - \x2fwp\x2dfeed\x2ephp\x3ffeed\x3dpodcast$
   - \x2fwp\x2ffeed\x2faudio\x2f$
   - \x2fwp\x2findex\x2ephp\x2fauthor\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   - \x2fwp\x2findex\x2ephp\x3ffeed\x3dpodcast$
@@ -791,6 +859,7 @@ endings:
   - \x2fws\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fservices\x2frss\x2fchannel\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{2,5})$
   - \x2fws\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fservices\x2frss\x2fuser\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{2,5})$
   - \x2fws\x2fsaooti\x2fservices\x2frss\x2femission\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{5})(\x2f(\d{1,}))?$
+  - \x2fwww\x2fwp\x2dcontent\x2faudio\x2fpodcast\x2fpodcast\x2exml(\x2f)?$
   - \x2fxml\x2dfeed\x2f\x3fid\x3d(\d{1,})$
   - \x2fxml\x2ephp\x3fpodcast\x3d(\d{1,})\x26program\x3d(\d{1,})$
   - \x2fxml\x2fpodcast\x5farchive\x2exml\x3fseries\x3d(\d{1,})$
