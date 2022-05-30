@@ -93,7 +93,8 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rehberogretmen\x2ebiz\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   biz.risky:
-    matching: []
+    matching:
+    - ^http(s)?\x3a\x2f\x2frisky\x2ebiz\x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   biz.soul-trader:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?soul\x2dtrader\x2ebiz\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
