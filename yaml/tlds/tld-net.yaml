@@ -850,6 +850,9 @@ rulesets:
   net.ebmcdn:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ebmcdn\x2enet\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  net.ebmedicine:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ebmedicine\x2enet\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   net.ecfwire:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ecfwire\x2enet\x2f\x3ffeed\x3d([a-z0-9\x25\x2d\x5f]{1,})$
@@ -1707,6 +1710,10 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letschert\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fmp3\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letschert\x2enet\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  net.letslearnhungarian:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letslearnhungarian\x2enet\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letslearnhungarian\x2enet\x2ffeed\x2f$
   net.letstalkchurch:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letstalkchurch\x2enet\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
@@ -2178,6 +2185,9 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?oneofus\x2enet\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?oneofus\x2enet\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  net.onespring:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?onespring\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
   net.onthecommons:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?onthecommons\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
