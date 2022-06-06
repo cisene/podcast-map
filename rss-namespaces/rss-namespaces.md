@@ -431,8 +431,7 @@ There will be notes and annotations and possible links to more information about
 
 
 ### _xmlns
-This may be something that was declared in error.
-
+This may be something that was declared in error, as it begins with an underscore and then the regular XMLNS declaration.
 
 
 ### a
@@ -441,3 +440,9 @@ Atom
 
 ### a10
 Atom
+
+
+### acast
+This is documented in large at [https://learn.acast.com/en/articles/4465740-flex-advanced-encrypted-xml](https://learn.acast.com/en/articles/4465740-flex-advanced-encrypted-xml)
+There is no downloadable or linkable DTD or XSD for this namespace.
+Declared by [Acast.com](https://acast.com/)
