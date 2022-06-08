@@ -157,6 +157,9 @@ rulesets:
   church.legacurry:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?legacurry\x2echurch\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+  church.lmbc:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lmbc\x2echurch\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
   church.loveland:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?loveland\x2echurch\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
@@ -326,6 +329,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tsmc\x2echurch\x2ffeed\x2f\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   church.veritascr:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?veritascr\x2echurch\x2fgetchannelfeed\x2eashx\x3fchannelid\x3d(\d{1,})\x26count\x3d(\d{1,})\x26templateid\x3d(\d{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?veritascr\x2echurch\x2fgetchannelfeed\x2eashx\x3fchannelid\x3d(\d{1,})\x26templateid\x3d(\d{1,})\x26count\x3d(\d{1,})$
   church.villagebible:
     matching:
