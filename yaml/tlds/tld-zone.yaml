@@ -1,10 +1,25 @@
 rulesets:
+  zone.adda:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?adda\x2ezone\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
   zone.ambient:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ambient\x2ezone\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  zone.bws:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bws\x2ezone\x2fcategory\x2f(.*)\x2ffeed(\x2f)?$
+  zone.calo:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?calo\x2ezone\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
   zone.chillout:
     matching:
     - ^http(s)?\x3a\x2f\x2fchillout\x2ezone\x2fdata\x2fpodcast\x2ephp\x3fpath\x3d([a-z0-9\x25\x2b\x2d\x2e\x2f\x5f]{1,})$
+  zone.darkandstormy:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?darkandstormy\x2ezone\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
+  zone.freech:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?freech\x2ezone\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$</matching></ruleset><ruleset domain="org.divergence-fm"><matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?divergence\x2dfm\x2eorg\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
   zone.jupiter:
     matching:
     - ^http(s)?\x3a\x2f\x2ffeed\x2ejupiter\x2ezone\x2f([a-z0-9\x25\x2d\x5f]{1,})$
@@ -15,32 +30,6 @@ rulesets:
   zone.patches:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?patches\x2ezone\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
-
-  zone.adda:
-    matching:
-      - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?adda\x2ezone\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
-
-
-  zone.bws:
-    matching:
-      - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bws\x2ezone\x2fcategory\x2f(.*)\x2ffeed(\x2f)?$
-
-
-  zone.calo:
-    matching:
-      - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?calo\x2ezone\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
-
-
-  zone.darkandstormy:
-    matching:
-      - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?darkandstormy\x2ezone\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
-
-
-  zone.freech:
-    matching:
-      - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?freech\x2ezone\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$</matching></ruleset><ruleset domain="org.divergence-fm"><matching>^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?divergence\x2dfm\x2eorg\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
-
-
   zone.productivity:
     matching:
-      - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?productivity\x2ezone\x2fpodcast\x2f([a-z0-9\x25\x28\x29\x2b\x2d\x2e\x2f\x5f]{1,})\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?productivity\x2ezone\x2fpodcast\x2f([a-z0-9\x25\x28\x29\x2b\x2d\x2e\x2f\x5f]{1,})\x2f$
