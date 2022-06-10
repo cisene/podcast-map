@@ -1,12 +1,20 @@
 rulesets:
+  af.automated:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?automated\x2eaf\x2fcategory\x2f(.*)\x2ffeed(\x2f)?$
+  af.awna:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?awna\x2eaf\x2fcategory\x2f(.*)\x2ffeed(\x2f)?$
   af.blog:
     matching:
-    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?blog\x2eaf\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?blog\x2eaf\x2f\x3ffeed\x3d([a-z0-9\x25\x2d\x5f]{1,})$
-    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?blog\x2eaf\x2fcategory\x2f(.+?)\x2ffeed(\x2f)?(\x3fpodcast)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?blog\x2eaf\x2fcategory\x2f(.*)\x2ffeed(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?blog\x2eaf\x2ffeed\x2f$
   af.blog.moserrat:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?moserrat\x2eblog\x2eaf\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?moserrat\x2eblog\x2eaf\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?moserrat\x2eblog\x2eaf\x2ffeed\x2f$
+  af.tkg:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tkg\x2eaf\x2fcategory\x2f(.*)\x2ffeed(\x2f)?$
