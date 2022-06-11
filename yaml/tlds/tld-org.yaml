@@ -10095,6 +10095,14 @@ rulesets:
   org.ypradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ypradio\x2eorg\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  org.yutorah:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?yutorah\x2eorg\x2frss\x2frecentAudioShiurim\x2ecfm\x3fnumberofrssresults\x3d(\d{1,})\x26organizationId\x3d(\d{1,})\x26seriesid\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?yutorah\x2eorg\x2frss\x2frecentAudioShiurim\x2ecfm\x3fnumberofrssresults\x3d(\d{1,})\x26organizationId\x3d(\d{1,})\x26teacherid\x3d(\d{1,})\x26x\x3d(\d{1,})\x26y\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?yutorah\x2eorg\x2frss\x2frecentAudioShiurim\x2ecfm\x3forganizationID\x3d(\d{1,})\x26seriesID\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?yutorah\x2eorg\x2frss\x2frecentAudioShiurim\x2ecfm\x3forganizationID\x3d(\d{1,})\x26seriesID\x3d(\d{1,})\x26numberofrssresults\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?yutorah\x2eorg\x2frss\x2frecentAudioShiurim\x2ecfm\x3forganizationID\x3d(\d{1,})\x26teacherID\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?yutorah\x2eorg\x2frss\x2frecentAudioShiurim\x2ecfm\x3fteacherID\x3d(\d{1,})$
   org.zapto:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?zapto\x2eorg\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
