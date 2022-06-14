@@ -6,8 +6,8 @@ This is an attempt of matching 90% of all URL formats out there -- to deduce if 
 
 Feel free to contribute. Feel free to use -- but please reference source.
 
+The latest rendered revisions are available here:
 
+[podcast-url-formats.json](./podcast-url-formats.json)
 
-[ ] Process and generate regular expressions matching RSS URLs.
-[ ] Render XML
-[ ] Render JSON
+[podcast-url-formats.xml](./podcast-url-formats.xml)
