@@ -752,6 +752,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiobus\x2ech\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiobus\x2ech\x2fpodcast\x2f(\d{1,})\x2frss$
+    - ^http(s)\x3a\x2f\x2fradiobus\x2ech\x2fuser\x2flogin\x3fdestination\x3dpodcast\x2f(\d{1,})\x2frss$
   ch.radiocentral:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiocentral\x2ech\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
@@ -953,6 +954,10 @@ rulesets:
   ch.tdg:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tdg\x2ech\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
+  ch.telebasel:
+    matching:
+    - ^http(s)\x3a\x2f\x2ftelebasel\x2ech\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3fchannel\x3d(\d{1,})\x26podcast$
+    - ^http(s)\x3a\x2f\x2ftelebasel\x2ech\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3fpodcast$
   ch.teleblocher:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?teleblocher\x2ech\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
