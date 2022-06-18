@@ -1292,6 +1292,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letelegramme\x2efr\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letelegramme\x2efr\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letelegramme\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
+  fr.letsgofishing:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letsgofishing\x2efr\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
   fr.lexradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lexradio\x2efr\x2fws\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fservices\x2frss\x2fchannel\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{2,5})$
@@ -1635,6 +1638,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ouest\x2dfrance\x2efr\x2fws\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fservices\x2frss\x2fchannel\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{2,5})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ouest\x2dfrance\x2efr\x2fws\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fservices\x2frss\x2fuser\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{2,5})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ouest\x2dfrance\x2efr\x2fws\x2fsaooti\x2fservices\x2frss\x2femission\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{5})(\x2f(\d{1,}))?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ouest\x2dfrance\x2efr\x2fws\x2fsaooti\x2fservices\x2frss\x2femission\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z]{2,3})(\x2f(\d{1,}))?$
   fr.ouifm:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ouifm\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
@@ -1809,6 +1813,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2dpatrimoine\x2efr\x2fws\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fservices\x2frss\x2fchannel\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{2,5})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2dpatrimoine\x2efr\x2fws\x2fsaooti\x2fservices\x2frss\x2femission\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{5})(\x2f(\d{1,}))?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2dpatrimoine\x2efr\x2fws\x2fsaooti\x2fservices\x2frss\x2femission\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z]{2,3})(\x2f(\d{1,}))?$
   fr.radio-rencontre:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2drencontre\x2efr\x2frss\x2d([a-z0-9\x2d\x2f\x5f]{1,})$
