@@ -665,6 +665,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bitnacht\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
   de.bitsundso:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bitsundso\x2ede\x2f\x3ffeed\x3drss2\x26s\x3d([a-z0-9\x25\x2b\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bitsundso\x2ede\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bitsundso\x2ede\x2ffeed\x2f\x3fformat\x3dmp3$
   de.bizarrlady-undine-hamburg:
@@ -2501,6 +2502,7 @@ rulesets:
   de.gep:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?gep\x2ede\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?gep\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcasts\x2faudio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   de.gerards-welt:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?gerards\x2dwelt\x2ede\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed$
@@ -4410,6 +4412,9 @@ rulesets:
   de.nachrichtenleicht:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nachrichtenleicht\x2ede\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
+  de.nak-dienste:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nak\x2ddienste\x2ede\x2fpodcast\x2f(\d{1,})\x2ffeed(\x3fapikey\x3d([a-f0-9]{40}))?$
   de.nakieken:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nakieken\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -5071,6 +5076,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?presseportal\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?presseportal\x2ede\x2frss\x2fpodcast\x2erss2$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?presseportal\x2ede\x2frss\x2fpodcast\x5f(\d{1,})\x2erss2$
   de.privatepublic:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?privatepublic\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -5250,6 +5256,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiodauerwelle\x2ede\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   de.radioeins:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radioeins\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f(\d{1,})\x2findex\x2exml\x2ffeed\x3dpodcast\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radioeins\x2ede\x2farchiv\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml\x2ffeed\x3d([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radioeins\x2ede\x2fprogramm\x2fsendungen\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml\x2ffeed\x3d([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   de.radioessen:
@@ -6548,6 +6555,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tu\x2dilmenau\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fauthor\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tu\x2dilmenau\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tu\x2dilmenau\x2ede\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tu\x2dilmenau\x2ede\x2fblog\x2f\x3ffeed\x3drss2\x26s\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   de.tu-tambien-sprachschule:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tu\x2dtambien\x2dsprachschule\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -6655,8 +6663,12 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fclip\x2fitunesu\x2f(\d{1,})\x2faudio$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fclip\x2fitunesu\x2f(\d{1,})\x2fsd$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fcourse\x2fitunesu\x2f(\d{1,})\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fcourse\x2fitunesu\x2f(\d{1,})\x2f(\d{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fcourse\x2fitunesu\x2f(\d{1,})\x2f(q)?hd(\x2fcombined)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fcourse\x2fitunesu\x2f(\d{1,})\x2f(sd|hd)\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fcourse\x2fitunesu\x2f(\d{1,})\x2faudio$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fcourse\x2fitunesu\x2f(\d{1,})\x2faudio\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fcourse\x2fitunesu\x2f(\d{1,})\x2fqhd\x2f(video)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2derlangen\x2ede\x2fcourse\x2fitunesu\x2f(\d{1,})\x2fsd$
   de.uni-frankfurt:
     matching:

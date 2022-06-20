@@ -36,6 +36,7 @@ rulesets:
   dk.antifilm:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?antifilm\x2edk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3ffeed\x3dpodcast$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?antifilm\x2edk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3ffeed\x3drss2\x26author\x3d(\d{1,})$
   dk.audi:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?audi\x2edk\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
@@ -187,6 +188,7 @@ rulesets:
   dk.esbjergkommune:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?esbjergkommune\x2edk\x2f([a-z0-9\x25\x2c\x2d\x5f]{1,})podcast$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?esbjergkommune\x2edk\x2faudiopodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   dk.etf:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?etf\x2edk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
@@ -330,6 +332,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?itu\x2edk\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?itu\x2edk\x2faudiopodcast$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?itu\x2edk\x2faudiopodcast\x2fchannel\x2f(\d{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?itu\x2edk\x2frss$
   dk.jackrock:
     matching:
@@ -403,6 +406,7 @@ rulesets:
   dk.koege:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?koege\x2edk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?koege\x2edk\x2faudiopodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   dk.konkylie:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?konkylie\x2edk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$

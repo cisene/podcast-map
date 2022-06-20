@@ -920,6 +920,9 @@ rulesets:
   net.bentownsendmusic:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bentownsendmusic\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
+  net.bereanchristianschool:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bereanchristianschool\x2enet\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
   net.bergersen:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bergersen\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
@@ -2161,6 +2164,14 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dgmphotography\x2enet\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dgmphotography\x2enet\x2f([a-z0-9\x25\x2b\x2c\x2d\x2f\x5f]{1,})\x2frss\x2exml$
+  net.dhalgren:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dhalgren\x2enet\x2f([a-z]{2})\x2fp\x2eartists\x3fartist\x3d(\d{1,})\x26locale\x3d([a-z]{2})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dhalgren\x2enet\x2f([a-z]{2})\x2fp\x2eartists\x3flocale\x3d([a-z]{2})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dhalgren\x2enet\x2f([a-z]{2})\x2fp\x2eexpo\x3fexpon\x3d(\d{1,})\x26locale\x3d([a-z]{2})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dhalgren\x2enet\x2f([a-z]{2})\x2fp\x2eexpo\x3fexpon\x3d(\d{1,})\x26locale\x3d([a-z]{2})\x26oeuvrn\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dhalgren\x2enet\x2f([a-z]{2})\x2fpod\x2eartists$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dhalgren\x2enet\x2f([a-z]{2})\x2fpod\x2eexpo$
   net.dhammada:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dhammada\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -6128,6 +6139,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?noquarters\x2enet\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   net.nordu:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nordu\x2enet\x2fapi\x5fv3\x2fgetfeed\x2ephp\x3ffeedid\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26partnerid\x3d(\d{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?nordu\x2enet\x2fapi\x5fv3\x2fgetfeed\x2ephp\x3fpartnerid\x3d(\d{1,})\x26feedid\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   net.northpointchurch:
     matching:
@@ -8467,6 +8479,7 @@ rulesets:
   net.survivreausida:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?survivreausida\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?survivreausida\x2enet\x2frss\x2exml\x3fid\x5fmot\x3d(\d{1,})$
   net.susannemachtsachen:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?susannemachtsachen\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -9617,6 +9630,9 @@ rulesets:
   net.webcastacademy:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?webcastacademy\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
+  net.weblettres:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?weblettres\x2enet\x2fblogs\x2fpodcast\x2ephp\x3fw\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   net.websnacks:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?websnacks\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
@@ -9790,6 +9806,7 @@ rulesets:
   net.woodlandschurch:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?woodlandschurch\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?woodlandschurch\x2enet\x2fblog\x2f\x3fformat\x3drss\x26tag\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   net.woolwork:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?woolwork\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
