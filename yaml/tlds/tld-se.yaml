@@ -520,8 +520,10 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hopechannel\x2ese\x2fmedia\x2frsscategory\x2f(\d{1,})\x3fmaxbitrate\x3d(\d{1,})\x26title\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26type\x3d(\d{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hopechannel\x2ese\x2fmedia\x2frsscategory\x2f(\d{1,})\x3fmaxbitrate\x3d(\d{1,})\x26title\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26type\x3d(\d{1,})\x26usegroupmedia\x3d([a-z0-9]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hopechannel\x2ese\x2fmedia\x2frsscategory\x2f(\d{1,})\x3ftitle\x3d([a-z0-9\x25\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hopechannel\x2ese\x2fmedia\x2frsscategory\x2f(\d{1,})\x3ftitle\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26type\x3d(\d{1,})\x26maxbitrate\x3d(\d{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hopechannel\x2ese\x2fmedia\x2frsscategory\x2f(\d{1,})\x3ftitle\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26type\x3d(\d{1,})\x26maxbitrate\x3d(\d{1,})\x26usegroupmedia\x3d([a-z0-9]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hopechannel\x2ese\x2fmedia\x2frsscategory\x2f(\d{1,})\x3ftitle\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26type\x3d(\d{1,})\x26maxbitrate\x3d(\d{1,})\x26useroupedia\x3d(true|false)$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?hopechannel\x2ese\x2fmedia\x2frsscategory\x2f(\d{1,})\x3ftype\x3d(\d{1,})\x26maxbitrate\x3d(\d{1,})\x26usegroupmedia\x3d([a-z0-9]{1,})$
   se.hultsfred:
     matching:
@@ -597,6 +599,7 @@ rulesets:
   se.islandshastpodden:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?islandshastpodden\x2ese\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?islandshastpodden\x2ese\x2fitunes$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?islandshastpodden\x2ese\x2fitunes\x3fq\x3ditunes$
   se.israelsvanner:
     matching:
