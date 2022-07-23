@@ -1217,6 +1217,7 @@ rulesets:
   de.compyblog:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?compyblog\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?compyblog\x2ede\x2ffeeds\x2findex\x2erss2$
   de.conpublica:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?conpublica\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
@@ -1748,6 +1749,9 @@ rulesets:
   de.easyhebrew:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?easyhebrew\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
+  de.eazy-living:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?eazy\x2dliving\x2ede\x2ffeed\x2fmp3$
   de.ebbes-noch:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ebbes\x2dnoch\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})$
@@ -2464,6 +2468,10 @@ rulesets:
   de.geekvsgeek:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?geekvsgeek\x2ede\x2f\x3ffeed\x3dpodcast$
+  de.geekzone:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?geekzone\x2ede\x2ffeed\x2faac$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?geekzone\x2ede\x2ffeed\x2fmp3$
   de.geemco:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?geemco\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})itunes(\x2f)?$
@@ -5264,6 +5272,10 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2drum\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fpodcast$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2drum\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  de.radio-unicc:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2dunicc\x2ede\x2ffeed\x2frss\x2ephp\x3fp\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2dunicc\x2ede\x2ffeed\x2frss\x2ephp\x3fpodcast\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   de.radio-wewewe:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radio\x2dwewewe\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -6759,6 +6771,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2dgoettingen\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2dgoettingen\x2ede\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2fmp3\x2dall\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2dgoettingen\x2ede\x2fdaten\x2f(\d{1,})\x2f(\d{1,})\x2frss\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
+  de.uni-greifswald:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2dgreifswald\x2ede\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dpodcast$
   de.uni-halle:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2dhalle\x2ede\x2f([a-z0-9\x25\x2b\x2d\x2f\x5f]{1,})\x2ffeed\x2f([a-z0-9\x2d\x5f]{1,})\x2f$
@@ -6774,6 +6789,7 @@ rulesets:
   de.uni-koeln:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2dkoeln\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed\x3d(feed|rss|itunes|itpc|podcast|raw)(.*)$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2dkoeln\x2ede\x2ffeed\x2f\x3fauthor\x3d(\d{1,})$
   de.uni-leipzig:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?uni\x2dleipzig\x2ede\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
@@ -7019,6 +7035,7 @@ rulesets:
   de.vrpodcast:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?vrpodcast\x2ede\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?vrpodcast\x2ede\x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmp3$
   de.vrr:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?vrr\x2ede\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$

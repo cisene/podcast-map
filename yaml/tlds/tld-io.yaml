@@ -57,6 +57,9 @@ rulesets:
   io.bethel:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bethel\x2eio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  io.beyondwords:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?beyondwords\x2eio\x2ff\x2f(\d{1,})\x2f(\d{1,})\x2fread\x5f([a-f0-9]{32})$
   io.bigbears:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bigbears\x2eio\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
@@ -79,6 +82,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?chn\x2eio\x2ffeed$
   io.churchbase:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?churchbase\x2eio\x2ffeed\x2f\x3ffull\x3d(\d{1,})\x26post\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?churchbase\x2eio\x2ffeed\x2f\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?churchbase\x2eio\x2ffeed\x2f\x3fpost\x5ftype\x3d([a-z0-9\x2d\x5f]{1,})\x26full\x3d(\d{1,})$
   io.cloudsimplified:
@@ -160,6 +164,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dreamnation\x2eio\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
   io.dropwave:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dropwave\x2eio\x2ffeed\x2faccount\x2f([a-f0-9\x2d]{36})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dropwave\x2eio\x2ffeed\x2fshow\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   io.durandal:
     matching:
@@ -356,6 +361,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podigee\x2eio\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podigee\x2eio\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podigee\x2eio\x2ffeed\x2f([a-zåäöæøèé0-9\x25\x2b\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podigee\x2eio\x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmp3$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podigee\x2eio\x2ffeeds\x2fso\x5fmo\x5f(\d{1,})\x2fmp3$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podigee\x2eio\x2ffeeds\x2fspotify\x5ffeed\x5f(\d{1,})\x2fmp3$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?podigee\x2eio\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2faac$

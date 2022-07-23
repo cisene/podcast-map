@@ -1638,6 +1638,7 @@ rulesets:
   org.audiodharma:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?audiodharma\x2eorg\x2ffeeds\x2fcollection\x2f(\d{1,})(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?audiodharma\x2eorg\x2ffeeds\x2frecordings\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?audiodharma\x2eorg\x2ffeeds\x2fretreat\x2f([a-z0-9]{4})(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?audiodharma\x2eorg\x2ffeeds\x2fretreat\x2f(\d{1,})(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?audiodharma\x2eorg\x2ffeeds\x2fteacher\x2f(\d{1,})(\x2f)?$
@@ -6772,6 +6773,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dharmasangha\x2dmembership\x2eorg\x2f([a-z0-9\x25\x2b\x2d\x2f\x5f]{1,})\x2ffeed\x2f([a-z0-9\x2d\x5f]{1,})\x2f$
   org.dharmaseed:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dharmaseed\x2eorg\x2ffeeds\x2fcollection\x2f(\d{1,})\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dharmaseed\x2eorg\x2ffeeds\x2fcomplete\x5fteacher\x2f(\d{1,})\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dharmaseed\x2eorg\x2ffeeds\x2frecordings\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dharmaseed\x2eorg\x2ffeeds\x2fretreat\x2f([a-z0-9]{4})(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dharmaseed\x2eorg\x2ffeeds\x2fteacher\x2f(\d{1,})\x2f(\x3fmax-entries\x3dall)?$
   org.dharmatreasure:
@@ -8191,6 +8195,8 @@ rulesets:
   org.fairhavenbaptist:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fairhavenbaptist\x2eorg\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fairhavenbaptist\x2eorg\x2ffeed\x3fid\x3d(\d{1,})\x26post\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fairhavenbaptist\x2eorg\x2ffeed\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26id\x3d(\d{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fairhavenbaptist\x2eorg\x2fsermons\x2fbook\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
   org.fairlatterdaysaints:
     matching:
@@ -18994,6 +19000,7 @@ rulesets:
   org.odb:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?odb\x2eorg\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?odb\x2eorg\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2fpodcast\x2f\x3flimit\x3d(\d{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?odb\x2eorg\x2fpodcast\x2f$
     - ^http(s)?\x3a\x2f\x2fapi\x2eexperience\x2eodb\x2eorg\x2fdevotionals\x2fpodcast\x2f\x3fcountry\x3d([a-z]{2})$
   org.odbcport:
@@ -20306,6 +20313,7 @@ rulesets:
   org.plumvillage:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?plumvillage\x2eorg\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?plumvillage\x2eorg\x2ffeed\x2faudio$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?plumvillage\x2eorg\x2ffeed\x2faudio\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   org.pmi-centralitaly:
     matching:
@@ -21187,6 +21195,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radioiranshahr\x2eorg\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radioiranshahr\x2eorg\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radioiranshahr\x2eorg\x2ffeed\x2fpodcast\x3fname\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   org.radiolive:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiolive\x2eorg\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
@@ -21700,6 +21709,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?reformedforum\x2eorg\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?reformedforum\x2eorg\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?reformedforum\x2eorg\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?reformedforum\x2eorg\x2ffeed\x2f\x3fprograms\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   org.refugedayton:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?refugedayton\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
@@ -22922,6 +22932,7 @@ rulesets:
   org.scienceandthesea:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scienceandthesea\x2eorg\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scienceandthesea\x2eorg\x2ffeeds\x2fpodcast\x3ffeed\x5fid\x3d(\d{1,})\x26option\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26version\x3d(\d{1,})$
   org.sciencemag:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sciencemag\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -23000,6 +23011,9 @@ rulesets:
   org.scribevibe:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scribevibe\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
+  org.scripturespodcast:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scripturespodcast\x2eorg\x2ffeed\x2easp\x3fi\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   org.scsreading:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scsreading\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -27341,6 +27355,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?un\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?un\x2eorg\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?un\x2eorg\x2ffeed\x2fsubscribe\x2f([a-z]{2})\x2faudio\x2dproduct\x2fall\x2faudio\x2drss\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?un\x2eorg\x2ffeed\x2fsubscribe\x2f([a-z]{2})\x2ftaxonomy\x2fterm\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2faudio\x2drss\x2exml(.*)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?un\x2eorg\x2ffeed\x2fsubscribe\x2f([a-z]{2})\x2ftaxonomy\x2fterm\x2fall\x2faudio\x2drss\x2exml$
   org.unanimes:
     matching:
@@ -29014,6 +29029,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?willingdon\x2eorg\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?willingdon\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?willingdon\x2eorg\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dpodcast$
   org.willmarag:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?willmarag\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$

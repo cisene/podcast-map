@@ -764,6 +764,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?azurewebsites\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?azurewebsites\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frss$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?azurewebsites\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fcategory\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?azurewebsites\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2frssfeed\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?azurewebsites\x2enet\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?azurewebsites\x2enet\x2fapi\x2fpodcaster\x2frss\x2f\x3furl\x3d([a-z0-9\x2d\x2e\x2f\x3a\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?azurewebsites\x2enet\x2ffeed\x2f$
@@ -843,6 +844,9 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?basicdiscipleship\x2enet\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?basicdiscipleship\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
+  net.basicgospel:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?basicgospel\x2enet\x2ffeeds\x2fradio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   net.basicwisdom:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?basicwisdom\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
@@ -3065,6 +3069,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?foundationsforfreedom\x2enet\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?foundationsforfreedom\x2enet\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?foundationsforfreedom\x2enet\x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   net.fowr:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fowr\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -4763,6 +4768,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?krusade\x2enet\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed\x2fpodcast$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?krusade\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?krusade\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2findex\x2ephp\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   net.kryptonpodcast:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kryptonpodcast\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
@@ -8037,6 +8043,7 @@ rulesets:
   net.shiapodcast:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?shiapodcast\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?shiapodcast\x2enet\x2fchannel\x2f$
   net.shieldscloud:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?shieldscloud\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
@@ -9388,6 +9395,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tyflopodcast\x2enet\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tyflopodcast\x2enet\x2ffeed\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tyflopodcast\x2enet\x2ffeed\x2f\x3fch\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   net.tympanus:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tympanus\x2enet\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
@@ -9583,6 +9591,9 @@ rulesets:
   net.viralbydesign:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?viralbydesign\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
+  net.visual-arts:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?visual\x2darts\x2enet\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   net.vivaldi:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?vivaldi\x2enet\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
