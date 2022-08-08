@@ -1,10 +1,16 @@
 rulesets:
+  cn.48:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?48\x2ecn\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   cn.7banma:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?7banma\x2ecn\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
   cn.81pla:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?81pla\x2ecn\x2f([a-z0-9]{1,})\x2e(xml|rss)$
+  cn.agentd:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?agentd\x2ecn\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   cn.bismillah:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bismillah\x2ecn\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -15,6 +21,18 @@ rulesets:
   cn.cnr:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cnr\x2ecn\x2f([a-z0-9\x21-x2e\x5f]{1,})\x2fondemand\x2fpodcast\x2f([a-z0-9\x21-x2e\x5f]{1,})\x2exml$
+  cn.com.bihai123:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bihai123\x2ecom\x2ecn\x2ffeed$
+  cn.com.europeanchamber:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?europeanchamber\x2ecom\x2ecn\x2ffeed\x2f$
+  cn.com.miraeasset:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?miraeasset\x2ecom\x2ecn\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  cn.com.mixmag:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mixmag\x2ecom\x2ecn\x2ffeed\x2f$
   cn.com.sina:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sina\x2ecom\x2ecn\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
@@ -33,6 +51,9 @@ rulesets:
   cn.dashicn:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dashicn\x2ecn\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
+  cn.debuginn:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?debuginn\x2ecn\x2ffeed$
   cn.dukeboxradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dukeboxradio\x2ecn\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
@@ -77,3 +98,6 @@ rulesets:
   cn.vraymasters:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?vraymasters\x2ecn\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
+  cn.wooozy:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?wooozy\x2ecn\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2exml$
