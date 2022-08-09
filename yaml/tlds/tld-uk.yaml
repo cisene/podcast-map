@@ -42,6 +42,9 @@ rulesets:
   uk.ac.cf:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cf\x2eac\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
+  uk.ac.dundee:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?dundee\x2eac\x2euk\x2fxml\x2f(\d{1,})\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   uk.ac.ed:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ed\x2eac\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
@@ -179,6 +182,7 @@ rulesets:
   uk.ac.rvc:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rvc\x2eac\x2euk\x2f([a-z0-9\x2d\x2f\x5f]{1,})\x2frss\x3fpodcastid\x3d(\d{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rvc\x2eac\x2euk\x2frss\x2f\x3fpodcast\x5fid\x3d(\d{1,})$
   uk.ac.scran:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?scran\x2eac\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
@@ -638,6 +642,9 @@ rulesets:
   uk.co.betweenplanets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?betweenplanets\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
+  uk.co.beyondthebarbell:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?beyondthebarbell\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   uk.co.bezerra:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bezerra\x2eco\x2euk\x2fpodcast\x2f([a-z0-9\x25\x28\x29\x2b\x2d\x2e\x2f\x5f]{1,})\x2f$
@@ -1558,6 +1565,9 @@ rulesets:
   uk.co.englishjones:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?englishjones\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
+  uk.co.entangledbank:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?entangledbank\x2eco\x2euk\x2fxml\x2frss\x2farticle\x2f(\d{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   uk.co.enthuselife:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?enthuselife\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
@@ -2254,6 +2264,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?insidethehouse\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?insidethehouse\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?insidethehouse\x2eco\x2euk\x2ffeed$
+  uk.co.inspirationweekly:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?inspirationweekly\x2eco\x2euk\x2ffeed\x2fpodcastrss$
   uk.co.inspire360:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?inspire360\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
@@ -3298,6 +3311,7 @@ rulesets:
   uk.co.pickaweb:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?pickaweb\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?pickaweb\x2eco\x2euk\x2fblog\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dfeed\x2f$
   uk.co.picksfromthepaddock:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?picksfromthepaddock\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
@@ -5286,6 +5300,7 @@ rulesets:
   uk.org.cbcew:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cbcew\x2eorg\x2euk\x2f([a-z0-9\x25\x2b\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cbcew\x2eorg\x2euk\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cbcew\x2eorg\x2euk\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   uk.org.ccmi:
     matching:
@@ -5404,6 +5419,9 @@ rulesets:
   uk.org.cowleychurchcommunity:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?cowleychurchcommunity\x2eorg\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
+  uk.org.crabtreechurch:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?crabtreechurch\x2eorg\x2euk\x2f\x3foption\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26view\x3dfeed\x26format\x3draw\x26itemid\x3d(\d{1,})$
   uk.org.croftonpark:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?croftonpark\x2eorg\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$

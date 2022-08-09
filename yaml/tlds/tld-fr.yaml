@@ -264,6 +264,7 @@ rulesets:
   fr.antrejeuxstudio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?antrejeuxstudio\x2efr\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?antrejeuxstudio\x2efr\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   fr.apiculteur-bio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?apiculteur\x2dbio\x2efr\x2ffeed\x2f$
@@ -1278,6 +1279,9 @@ rulesets:
   fr.externalisation-saisie:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?externalisation\x2dsaisie\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
+  fr.extinctionrebellion:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?extinctionrebellion\x2efr\x2ffeeds\x2fvideos\x2exml\x3fsort\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26islocal\x3d(true|false)$
   fr.faire-de-la-photo:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?faire\x2dde\x2dla\x2dphoto\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
@@ -1782,6 +1786,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?justaclick\x2efr\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   fr.kaorin:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kaorin\x2efr\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2f\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kaorin\x2efr\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
   fr.katyslanguages:
     matching:
@@ -2140,6 +2145,9 @@ rulesets:
   fr.letsgofishing:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?letsgofishing\x2efr\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
+  fr.leuromag:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?leuromag\x2efr\x2findex\x2ephp\x3fpreaction\x3drss\x26type\x3dvideopodcast$
   fr.lexradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lexradio\x2efr\x2fws\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fservices\x2frss\x2fchannel\x2f(\d{1,})\x2f(\d{1,})\x2f([a-z\x2d\x5f]{2,5})$
@@ -2217,6 +2225,9 @@ rulesets:
   fr.lqc:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lqc\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
+  fr.lqdn:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lqdn\x2efr\x2ffeeds\x2fvideos\x2exml\x3fsort\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   fr.lucarne-opposee:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?lucarne\x2dopposee\x2efr\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3ffeed\x3drss2\x26author\x3d(\d{1,})$
@@ -2437,6 +2448,7 @@ rulesets:
   fr.mobbee:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mobbee\x2efr\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mobbee\x2efr\x2findex\x2ephp\x3fpreaction\x3drss\x26type\x3dvideopodcast$
   fr.modula:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?modula\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -2880,6 +2892,7 @@ rulesets:
   fr.ploud:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ploud\x2efr\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ploud\x2efr\x2ffeeds\x2fvideos\x2exml\x3fsort\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26islocal\x3d(true|false)$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ploud\x2efr\x2ffeeds\x2fvideos\x2exml\x3fvideochannelid\x3d(\d{1,})$
   fr.pltdj:
     matching:
@@ -3056,6 +3069,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiolaser\x2efr\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiolaser\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiolaser\x2efr\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiolaser\x2efr\x2fxml\x2fsyndication\x2erss\x3ft\x3d([a-z0-9\x25\x2b\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiolaser\x2efr\x2fxml\x2fsyndication\x2erss\x3ft\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   fr.radiom:
     matching:
