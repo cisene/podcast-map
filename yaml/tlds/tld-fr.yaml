@@ -1042,6 +1042,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?diceandclic\x2efr\x2f([a-z0-9\x25\x2b\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?diceandclic\x2efr\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?diceandclic\x2efr\x2ffeed\x2fpodcast\x3ffrom\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   fr.digradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?digradio\x2efr\x2frss\x2d([a-z0-9\x2d\x2f\x5f]{1,})$
@@ -1232,6 +1233,9 @@ rulesets:
   fr.equation-sante:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?equation\x2dsante\x2efr\x2f([a-z0-9\x2d\x5f]{1,})\x2fpodcasts\x2f([a-z0-9\x2d\x2e\x2f\x5f]{1,})$
+  fr.erfm:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?erfm\x2efr\x2fpodcast\x2erss\x2exml$
   fr.erreur42:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?erreur42\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -3578,6 +3582,9 @@ rulesets:
   fr.teddybox:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?teddybox\x2efr\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
+  fr.telestar:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?telestar\x2efr\x2ffeed\x2flist\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x28limit\x29\x2f(\d{1,})$
   fr.temporiumradio:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?temporiumradio\x2efr\x2frss\x2d([a-z0-9\x2d\x2f\x5f]{1,})$

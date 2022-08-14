@@ -959,6 +959,9 @@ rulesets:
   fm.pharma:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?pharma\x2efm\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
+  fm.phenix:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?phenix\x2efm\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f\x3fid\x3d(\d{1,})$
   fm.phonolog:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?phonolog\x2efm\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
@@ -1477,6 +1480,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tupi\x2efm\x2f([a-z0-9\x25\x2b\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x2d\x5f]{1,})$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tupi\x2efm\x2f([a-z0-9]{1,})\x2f([a-z0-9\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tupi\x2efm\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?tupi\x2efm\x2ffeed\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   fm.turbo:
     matching:
