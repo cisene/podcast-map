@@ -484,6 +484,9 @@ rulesets:
   ru.fontanka:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?fontanka\x2eru\x2f\x3ffeed\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  ru.forstwoof:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?forstwoof\x2eru\x2frss\x2ephp$
   ru.francaisclub:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?francaisclub\x2eru\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
@@ -1103,6 +1106,9 @@ rulesets:
   ru.predanie:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?predanie\x2eru\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  ru.prfoodshow:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?prfoodshow\x2eru\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   ru.primpress:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?primpress\x2eru\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
@@ -1191,6 +1197,9 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovera\x2eru\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovera\x2eru\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovera\x2eru\x2fitunes\x5fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+  ru.radiovesti:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovesti\x2eru\x2frss\x2fbrand\x2fid\x2f(\d{1,})\x2f$
   ru.radiovos:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?radiovos\x2eru/
@@ -1282,6 +1291,8 @@ rulesets:
   ru.rutv:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rutv\x2eru\x2frss\x2fbrand\x2fid\x2f(\d{1,})\x2frsstype\x2fitunes$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rutv\x2eru\x2frss\x2fbrand\x2fid\x2f(\d{1,})\x2frsstype\x2fitunes\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rutv\x2eru\x2frss\x2fbrand\x2fid\x2f(\d{1,})\x2frsstype\x2fitunes\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   ru.rwrpod:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?rwrpod\x2eru\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
