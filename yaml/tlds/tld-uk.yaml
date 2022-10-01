@@ -1880,6 +1880,7 @@ rulesets:
   uk.co.ftsincome:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ftsincome\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ftsincome\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ftsincome\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   uk.co.ftsq:
     matching:
@@ -3926,6 +3927,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sirenonline\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sirenonline\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fauthor\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sirenonline\x2eco\x2euk\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   uk.co.sirenstories:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sirenstories\x2eco\x2euk\x2f([a-z0-9\x2d\x5f]{1,})\x2fpodcasts\x2f([a-z0-9\x2d\x2e\x2f\x5f]{1,})$
@@ -4916,6 +4918,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?welovetheinternet\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
   uk.co.wembaptistchurch:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?wembaptistchurch\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?wembaptistchurch\x2eco\x2euk\x2ffeed\x2fpodcast\x2f$
   uk.co.west12media:
     matching:
@@ -4926,6 +4929,9 @@ rulesets:
   uk.co.westernspring:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?westernspring\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
+  uk.co.westpartnership:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?westpartnership\x2eco\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   uk.co.westsussexhypnotherapy:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?westsussexhypnotherapy\x2eco\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
@@ -5121,6 +5127,9 @@ rulesets:
   uk.encounterchurch:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?encounterchurch\x2euk\x2ffeed\x3fpost\x5ftype\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  uk.eurovisionshow:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?eurovisionshow\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
   uk.factor8scandal:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?factor8scandal\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})?rss(2)?(\x2f)?$
@@ -5412,6 +5421,7 @@ rulesets:
   uk.org.bdeducation:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bdeducation\x2eorg\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bdeducation\x2eorg\x2euk\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   uk.org.bdng:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bdng\x2eorg\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
@@ -5662,6 +5672,9 @@ rulesets:
   uk.org.crowncourtchurch:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?crowncourtchurch\x2eorg\x2euk\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
+  uk.org.crux:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?crux\x2eorg\x2euk\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   uk.org.crystalpeakschurch:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?crystalpeakschurch\x2eorg\x2euk\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
