@@ -39,6 +39,9 @@ rulesets:
   tw.drv:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?drv\x2etw\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
+  tw.edu.kh:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?kh\x2eedu\x2etw\x2fchannels\x2fsubscribe\x5fpodcast\x2f(\d{1,})\x3flocale\x3d([a-z\x5f]{5})\x26format\x3dxml$
   tw.edu.ndhu:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ndhu\x2eedu\x2etw\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})$
