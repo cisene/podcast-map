@@ -5,6 +5,9 @@ rulesets:
   il.ac.sapir:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?sapir\x2eac\x2eil\x2f\x3ffeed\x3drss2\x26cat\x3d(\d{1,})$
+  il.ac.technion:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?technion\x2eac\x2eil\x2f\x7e([a-z0-9\x2d\x5f]{1,})?\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss$
   il.co.1062fm:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?1062fm\x2eco\x2eil\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})feed(\x2f)?$
@@ -132,6 +135,9 @@ rulesets:
   il.co.michaltsafir:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?michaltsafir\x2eco\x2eil\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
+  il.co.mishdareshet:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mishdareshet\x2eco\x2eil\x2frss\x2fpodcasts$
   il.co.mobile-marketing:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?mobile\x2dmarketing\x2eco\x2eil\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
