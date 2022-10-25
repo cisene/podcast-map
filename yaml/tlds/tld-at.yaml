@@ -1,11 +1,4 @@
 rulesets:
-
-  at.reisen-wandern-tauchen:
-    matching:
-    - ^http(s)?\x3a\x2f\x2ffeeds\x2ereisen\x2dwandern\x2dtauchen\x2eat\x2f([a-z0-9\x25\x2d\x5f]{1,})$
-  at.icf-vlbg:
-    matching:
-    - ^http(s)?\x3a\x2f\x2ffeeds\x2eicf\x2dvlbg\x2eat\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   at.12termann:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?12termann\x2eat\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
@@ -433,6 +426,9 @@ rulesets:
   at.icf-salzburg:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?icf\x2dsalzburg\x2eat\x2fpodcast\x2fshow\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2faudio$
+  at.icf-vlbg:
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2eicf\x2dvlbg\x2eat\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   at.icf-vorarlberg:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?icf\x2dvorarlberg\x2eat\x2fpodcast\x2fshow\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2faudio$
@@ -713,6 +709,9 @@ rulesets:
   at.radiomaria:
     matching:
     - ^http(s)?\x3a\x2f\x2frcm\x2eradiomaria\x2eat\x2f\x21\x2fapi\x2fxml\x2fitunesfeed\x3fabk\x3d([a-z0-9\x25\x2d\x5f]{1,})$
+  at.reisen-wandern-tauchen:
+    matching:
+    - ^http(s)?\x3a\x2f\x2ffeeds\x2ereisen\x2dwandern\x2dtauchen\x2eat\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   at.robinhood-tierschutz:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?robinhood\x2dtierschutz\x2eat\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
