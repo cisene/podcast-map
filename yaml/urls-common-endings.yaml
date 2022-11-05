@@ -505,6 +505,7 @@ endings:
   - \x2fcategory\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2f$
   - \x2fcategory\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2fpodcast$
   - \x2fcategory\x2f([a-z0-9\x2d\x5f]{1,})\x2ffeed\x2fpodcast\x2f$
+  - \x2fcategory\x2faudio\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2ffeed\x2fpodcast\x2f$
   - \x2fcategory\x2fmedia\x2faudio\x2fradio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   - \x2fcategory\x2fmedia\x2faudio\x2fsermons\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2ffeed\x2f$
   - \x2fcategory\x2fpodcast\x2d([a-z0-9\x25\x2d\x5f]{1,})\x2f$
@@ -540,15 +541,21 @@ endings:
   - \x2fcomponent\x2fpodcastmanager\x2f\x3fformat\x3draw\x26feedname\x3d$
   - \x2fcomponent\x2fpodcastmanager\x2f\x3fformat\x3draw\x26feedname\x3d(\d{1,})$
   - \x2fcomponent\x2fsermonspeaker\x2ffeed\x3fcatid\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26format\x3draw\x26limitstart\x3d(\d{1,})$
+  - \x2fcontent\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2f([a-z0-9\x25\x2d\x2f\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2fcontent\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z]{2})\x2f([a-z\x2d\x5f]{2,5})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss\x2exml$
   - \x2fcontent\x2f(\d{1,})\x2fpodcastfeeds\x2f(\d{1,})\x2exml$
+  - \x2fcontent\x2farticle\x2fcategory\x2fitunes\x2f(\d{1,})(\x3f(.*))?$
+  - \x2fcontent\x2faudio\x2f\x3f\x5ft\x3drss$
   - \x2fcontent\x2fpodcast\x2dfeed\x2frss\x2exml\x3f(.*)$
+  - \x2fcontent\x2fpodcastrss(\x2f)?$
   - \x2fcourse\x2fitunesu\x2f(\d{1,})\x2f(\d{1,})$
   - \x2fcourse\x2fitunesu\x2f(\d{1,})\x2f(sd|hd)\x2f$
   - \x2fcourse\x2fitunesu\x2f(\d{1,})\x2faudio\x2f$
   - \x2fcourse\x2fitunesu\x2f(\d{1,})\x2fqhd\x2f(video)?$
   - \x2fcourses\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2flectures\x2fpodcast\x2exml$
   - \x2fcrearss\x2ephp\x3fidp\x3d(\d{1,})$
+  - \x2fd\x2fplaylist\x2f([a-f0-9\x2d]{36})\x2f([a-f0-9\x25\x2d]{35})\x2f([a-f0-9\x2d]{36})\x2fpodcast\x2erss$
+  - \x2fd\x2fprograms\x2f([a-f0-9\x2d]{36})\x2f([a-f0-9\x2d]{36})\x2fpodcast\x2erss\x3ftoken\x3d([a-z0-9]{32})$
   - \x2fdircaster\x2ephp$
   - \x2fdownloads\x2f([a-z0-9]{1,})\x2f([a-z0-9]{1,})\x2f([a-z0-9]{1,})\x5fmp4\x2exml$
   - \x2fdownloads\x2f([a-z0-9]{1,})\x2f([a-z0-9]{1,})\x2f([a-z0-9]{1,})\x5fogg\x2exml$
@@ -795,11 +802,14 @@ endings:
   - \x2ffeeds\x2f([a-f0-9\x2d]{36})\x2frendered\x2frss$
   - \x2ffeeds\x2f([a-f0-9]{24})\x2f([a-f0-9]{24})\x3fproperty\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeeds\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2exml$
+  - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dfeed\x2f$
   - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dogg\x2f$
   - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dpodcast$
   - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dpodcast\x2ephp$
   - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2dpodcast\x2f$
+  - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2erss\x3fts\x3d(\d{1,})$
+  - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
   - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmp3$
   - \x2ffeeds\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fmp3\x2f$
@@ -819,8 +829,10 @@ endings:
   - \x2ffeeds\x2fcast\x2dopus\x2f$
   - \x2ffeeds\x2fcategory\x2f([a-z0-9]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})?\x2exml$
   - \x2ffeeds\x2fcategory\x2f([a-z]{1})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2exml$
+  - \x2ffeeds\x2fchannels\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeeds\x2fcollection\x2f(\d{1,})\x2f$
   - \x2ffeeds\x2fcomplete\x5fteacher\x2f(\d{1,})\x2f$
+  - \x2ffeeds\x2fepisodes\x2f([a-z0-9\x25\x2d\x5f]{1,})$
   - \x2ffeeds\x2ffree\x2fmp3$
   - \x2ffeeds\x2fget\x2ephp\x3fformat\x3dpodcast$
   - \x2ffeeds\x2fgo\x5frss\x3ffeed\x5fid\x3d(\d{1,})$
@@ -837,6 +849,7 @@ endings:
   - \x2ffeeds\x2fmedia\x2f\x3fsection\x3d(\d{1,})$
   - \x2ffeeds\x2fmp3\x2f$
   - \x2ffeeds\x2fmrss\x2f$
+  - \x2ffeeds\x2fplaylists\x2f(\d{1,})\x2erss\x3flang\x3d([a-z]{2})\x26apikey\x3d([a-f0-9\x2d]{1,})\x26type\x3daudio$
   - \x2ffeeds\x2fplaylists\x2f(\d{1,})\x2erss\x3flang\x3d([a-z]{2})\x26apikey\x3d([a-f0-9\x2d]{13})$
   - \x2ffeeds\x2fpodcast\x2ephp\x3fcid\x3d(\d{1,})$
   - \x2ffeeds\x2fpodcast\x3ffeed\x5fid\x3d(\d{1,})\x26option\x3d([a-z0-9\x25\x2d\x5f]{1,})\x26version\x3d(\d{1,})$
@@ -861,16 +874,19 @@ endings:
   - \x2ffeeds\x2froutine\x2fmp4\x2f$
   - \x2ffeeds\x2froutine\x2fwebm\x2f$
   - \x2ffeeds\x2frss$
+  - \x2ffeeds\x2frss\x2f([a-z0-9]{1,})\x5f([a-z0-9]{1,})$
   - \x2ffeeds\x2frss\x2f([a-z]{1,})\x2findex\x2exml$
   - \x2ffeeds\x2frss\x2faudio\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2findex\x2exml$
   - \x2ffeeds\x2frss\x2fpodcast\x2f(\x2d)?(\d{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   - \x2ffeeds\x2fseries\x5frss\x2f(\d{1,})\x2f$
   - \x2ffeeds\x2fsermons$
   - \x2ffeeds\x2fsermons\x2erss\x3fcb\x3d(\d{1,})$
+  - \x2ffeeds\x2fshows\x2f([a-z0-9\x25\x2d\x5f]{1,})(\x2f)?$
   - \x2ffeeds\x2fso\x5fmo\x5f(\d{1,})\x2fmp3$
   - \x2ffeeds\x2fspotify\x5ffeed\x5f(\d{1,})\x2fmp3$
   - \x2ffeeds\x2fstories\x2f$
   - \x2ffeeds\x2ftalks\x2erss\x3fapikey\x3d([a-z0-9\x25\x2d\x3d\x5f]{1,})$
+  - \x2ffeeds\x2ftalks\x2erss\x3ftype\x3d(audio|video)\x26apikey\x3d([a-f0-9\x2d]{1,})\x26days\x3d(\d{1,})$
   - \x2ffeeds\x2fteacher\x2f(\d{1,})\x2f(\x3fmax-entries\x3dall)?$
   - \x2ffeeds\x2fvideos\x2exml$
   - \x2ffeeds\x2fvideos\x2exml\x3faccountid\x3d(\d{1,})$
