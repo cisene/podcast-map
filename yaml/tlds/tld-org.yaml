@@ -537,6 +537,7 @@ rulesets:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?accountabilitystudio\x2eorg\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2f([a-z0-9\x21-\x2e\x5f]{1,})\x2ffeed\x2fpodcast\x2f$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?accountabilitystudio\x2eorg\x2f([a-z0-9\x25\x2b\x2d\x2f\x5f]{1,})\x2ffeed\x2f([a-z0-9\x2d\x5f]{1,})\x2f$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?accountabilitystudio\x2eorg\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?accountabilitystudio\x2eorg\x2ffeed\x2f$
   org.acdis:
     matching:
@@ -14299,6 +14300,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?foodfinanceinstitute\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x3d\x3f\x5f\x7e]{2,})podcast(\x2f)?$
   org.foodintegritynow:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?foodintegritynow\x2eorg\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?foodintegritynow\x2eorg\x2f\x3ffeed\x3d([a-z0-9\x25\x2d\x5f]{1,})$
   org.foodlineradio:
     matching:
@@ -42468,6 +42470,9 @@ rulesets:
   org.waxingdeep:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?waxingdeep\x2eorg\x2f([a-z0-9\x25\x26\x2b\x2d\x2e\x2f\x5f\x7e]{2,})\x2e(xml|rss(2)?|atom|rdf)$
+  org.waxy:
+    matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?waxy\x2eorg\x2ffeed\x2f$
   org.waychurchdenver:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?waychurchdenver\x2eorg\x2f([a-z0-9\x25\x2d\x5f]{1,})\x3fformat\x3drss$
