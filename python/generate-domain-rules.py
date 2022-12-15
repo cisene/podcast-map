@@ -21,7 +21,7 @@ global cur
 
 global contents
 
-YAML_BASE = '../yaml/'
+YAML_BASE = './yaml/'
 YAML_TLDS = YAML_BASE + 'tlds/'
 
 YAML_EXCLUDE_DOMAINS = YAML_BASE + 'domains-exclude.yaml'
@@ -30,11 +30,11 @@ YAML_EXCLUDE_TLDS = YAML_BASE + 'tlds-exclude.yaml'
 
 RE_PROTO = r"^http(s)?\x3a\x2f\x2f"
 
-MISSED_FRACTIONS_URLS = '../work/url-fractions.txt'
-MISSED_FULL_URLS = '../work/url-full.txt'
+MISSED_FRACTIONS_URLS = './work/url-fractions.txt'
+MISSED_FULL_URLS = './work/url-full.txt'
 
-URL_LOG_FULLURL = '../work/missed-url-full.txt'
-URL_LOG_FRACTIONURL = '../work/missed-url-fragments.txt'
+URL_LOG_FULLURL = './work/missed-url-full.txt'
+URL_LOG_FRACTIONURL = './work/missed-url-fragments.txt'
 
 
 def writeLogFullURL(feedlink):
@@ -250,7 +250,7 @@ def deChunkDomains(domains):
     domain = domains['rulesets'][tld]
     # print(domain)
 
-    fullpath = '../yaml/tld-' + str(tld) + '.yaml'
+    fullpath = './yaml/tld-' + str(tld) + '.yaml'
     content = { 'rulesets': [] }
     content['rulesets'] = domain
 
