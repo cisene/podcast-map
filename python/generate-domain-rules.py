@@ -38,10 +38,6 @@ URL_LOG_FRACTIONURL = './work/missed-url-fragments.txt'
 
 
 def writeLogFullURL(feedlink):
-  machine_name = os.uname().nodename
-  if machine_name != 'm3800':
-    return
-
   # Force all links to be https -- simplify
   feedlink = re.sub(r"^http(s)?\x3a\x2f\x2f", "https://", str(feedlink), flags=re.IGNORECASE)
 
@@ -49,10 +45,6 @@ def writeLogFullURL(feedlink):
     f.write(feedlink + "\n")
 
 def writeLogFragmentURL(feedlink):
-  machine_name = os.uname().nodename
-  if machine_name != 'm3800':
-    return
-
   if re.search(r"^http(s)?\x3a\x2f\x2f", str(feedlink), flags=re.IGNORECASE):
     feedlink = re.sub(r"^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})", "", str(feedlink), flags=re.IGNORECASE)
     feedlink = str(feedlink).lower()
