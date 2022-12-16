@@ -8,6 +8,9 @@ import re
 import time
 import random
 
+import warnings
+warnings.filterwarnings("error")
+
 import yaml
 
 import argparse
@@ -497,9 +500,16 @@ def processDomains(domains, exclude_domains):
                 match_count += 1
                 break
 
+            except FutureWarning as e:
+              print(f"error: {e}")
+              print(f"feedlink: {feedlink}")
+              print(f"match_rule: {match_rule}")
+              pass
+              
             except:
               print("Exception")
               pass
+
             finally:
               pass
 
