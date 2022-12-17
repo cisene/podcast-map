@@ -370,8 +370,10 @@ def buildREfromFeedLink(feedlink, url_match_domain, common_endings):
       print(f"Broken: {re_domain_full_pattern}")
       print(f"Partial: {re_pattern}")
       pass
-      exit(0)
+      #exit(0)
 
+    finally:
+      pass
 
     if hit_count != 0:
       break
@@ -505,7 +507,7 @@ def processDomains(domains, exclude_domains):
               print(f"feedlink: {feedlink}")
               print(f"match_rule: {match_rule}")
               pass
-              
+
             except:
               print("Exception")
               pass
