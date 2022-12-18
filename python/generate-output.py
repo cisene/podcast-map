@@ -26,15 +26,15 @@ global cur
 
 global contents
 
-YAML_BASE = '../yaml/'
+YAML_BASE = './yaml/'
 YAML_TLDS = YAML_BASE + 'tlds/'
 
 
-XML_BASE = '../xml/'
+XML_BASE = './xml/'
 XML_RULES = XML_BASE + "podcast-url-formats.xml"
 
 
-JSON_BASE = '../json/'
+JSON_BASE = './json/'
 JSON_RULES = JSON_BASE + "podcast-url-formats.json"
 
 
