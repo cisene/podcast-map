@@ -115,6 +115,9 @@ def disconnectMySQL():
   global conn
   global cur
 
+  cur.close()
+  conn.close()
+
   cur = None
   conn = None
 
