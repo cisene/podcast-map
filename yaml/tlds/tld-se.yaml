@@ -305,6 +305,7 @@ rulesets:
   se.bjoremanmelin:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bjoremanmelin\x2ese\x2f([a-z0-9\x2d\x2e\x5f]{1,})\x2e(rss(2)?|xml|atom|rdf)$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bjoremanmelin\x2ese\x2ffeed$
   se.bjornbroder:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?bjornbroder\x2ese\x2f\x3ffeed\x3dpodcast$
@@ -1338,6 +1339,7 @@ rulesets:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?ljungskilenyheter\x2ese\x2f\x3ffeed\x3drss2\x26author\x3d(\d{1,})$
   se.logistikpodden:
     matching:
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?logistikpodden\x2ese\x2f([a-z0-9\x25\x2d\x2e\x5f]{1,})\x2f(feed|podcast)(\x2f)?$
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?logistikpodden\x2ese\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2f\x5f]{1,})$
   se.lopningochlivet:
     matching:
@@ -2312,6 +2314,7 @@ rulesets:
   se.taifpodden:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?taifpodden\x2ese\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2fpodcast\x2f([a-z0-9\x25\x2d\x5f]{1,})$
+    - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?taifpodden\x2ese\x2ffeed\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f([a-z0-9\x25\x2d\x5f]{1,})\x2f$
   se.talarforum:
     matching:
     - ^http(s)?\x3a\x2f\x2f([a-z0-9\x2d\x2e\x5f]{1,})?talarforum\x2ese\x2frss$
